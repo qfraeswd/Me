@@ -1690,7 +1690,7 @@ ${thisMessage}\`\`\`
 
 client.on ("guildMemberAdd", member => {
   
-   var role = member.guild.roles.find ("name", "• Me » Owner");
+   var role = member.guild.roles.find ("name", "• Me » Members");
    member.addRole (role);
   
 })
@@ -1813,10 +1813,10 @@ if(!aUser) return msg.channel.send("Couldn't find users.");
     ac.send(`** [ @• Toxic » Support  ]تم بنجاح قبولك  واعطائك رتبة ${aUser}**`)
 
     msg.delete().catch(O_o=>{});
-    var role = msg.guild.roles.find(`name`, '• PowerCodes » Support');
-    var role2 = msg.guild.roles.find(`name`, '• Help » Github');
-    var role3 = msg.guild.roles.find(`name`, '• Help » Heroku');
-    if(!role) return msg.guild.channel.send("Could't find `• ZCodes » Support` role.");
+    var role = msg.guild.roles.find(`name`, '• Me » Owner');
+    var role2 = msg.guild.roles.find(`name`, '• Me » Systems');
+    var role3 = msg.guild.roles.find(`name`, '• Me » Founders');
+    if(!role) return msg.guild.channel.send("Could't find `• Me » Broadcast` role.");
     aUser.addRole(role);
     aUser.addRole(role2);
     aUser.addRole(role3);
