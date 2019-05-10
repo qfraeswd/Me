@@ -2689,4 +2689,20 @@ channel.send({embed : embed});
     channel.send({embed : embed});
     })
 
+client.on("message", message => {
+ if (message.content === `${prefix}`) {
+  const embed = new Discord.RichEmbed()
+      .setColor("#000000")
+      .setDescription(`
+${prefix}py = ✽-discord-py
+${prefix}html = ✽-discord-html
+${prefix}js = ✽-discord-js
+${prefix}css = ✽-code-css
+${prefix}php = ✽-code-php
+	  `)
+   message.channel.sendEmbed(embed)
+    
+   }
+   });
+
 client.login(process.env.BOT_TOKEN);
