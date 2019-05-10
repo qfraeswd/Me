@@ -2715,7 +2715,7 @@ client.on('guildMemberAdd', member => {
     var embed = new Discord.RichEmbed()
     .setThumbnail(member.user.avatarURL)
   .addField("***شكرا الانضمامك الينا***" ,member.user.username )
-    .setDescription('***مرحب بك فى Me كودز الى طلب كوادت بوتات***')
+    .setDescription('** __M__e __C__odes **')
     .setColor('RANDOM')
     .setImage('https://2.top4top.net/p_1225y7yza1.gif')
 var channel =member.guild.channels.find('name', '✽-welcome')
