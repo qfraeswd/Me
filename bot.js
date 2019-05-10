@@ -1,10 +1,10 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const moment = require('moment');
 const client = new Discord.Client();
 const giphy = require('giphy-api')();
 const fs = require("fs");
 const prefix = "#";
-const devs = ['564414567946387487' , '' , '' , ''];
+const devs = ['564414567946387487' , '434414586960150539' , '' , ''];
 const adminprefix = "#";
 
 client.on('ready', () => {
@@ -18,32 +18,9 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers ' Script By : AboRoh ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`#help-js | #help2 | #تقديم `,"http://twitch.tv/S-F")
+client.user.setGame(`#help-js | #help2`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
  
-});
-
-
-client.on('message', msg => {
-	var  prefix = "#";
- if (msg.content.startsWith(prefix + 'cal')) {
-    let args = msg.content.split(" ").slice(1);
-        const question = args.join(' ');
-    if (args.length < 1) {
-        msg.reply('Specify a equation, please.');
-} else {    let answer;
-    try {
-        answer = math.eval(question);
-    } catch (err) {
-        msg.reply(`Error: ${err}`);
-    }
-    
-    const embed = new Discord.RichEmbed()
-    .addField("**Input**: ",`**${question}**`, true)
-    .addField("**Output**: ",`**${answer}**`, true)
-    msg.channel.send(embed)
-    }
-};
 });
 
 const developers = ["564414567946387487"]
@@ -72,86 +49,17 @@ client.on('message', message => {
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
-      message.channel.send(`Changing The Name To ..**${argresult}** `)
+      message.channel.send(`تغيير الاسم إلى ..**${argresult}** `)
 } else
   if (message.content.startsWith(adminprefix + 'setprefix')) {
   client.user.setPrefix(argresult).then
-      message.channel.send(`Changing Prefix ..**${argresult}** `)
+      message.channel.send(`تغيير البادئة ..**${argresult}** `)
 } else
 if (message.content.startsWith(adminprefix + 'setavatar')) {
   client.user.setAvatar(argresult);
-    message.channel.send(`Changing The Avatar To :**${argresult}** `);
+    message.channel.send(`تغيير الصورة الرمزية إلى :**${argresult}** `);
 }
-});//Toxic Codes
-
-
-client.on('message', msg => {
-    if(msg.author.bot) return;
-    
-    if(msg.content === '#sr') {
-      client.guilds.forEach(g => {
-        
-        let l = g.id
-        g.channels.get(g.channels.first().id).createInvite({
-          maxUses: 5,
-          maxAge: 86400
-        }).then(i => msg.channel.send(`
-        **
-        Invite Link : <https://discord.gg/${i.code}>
-        Server : ${g.name} | Id : ${g.id} 
-        Owner ID : ${g.owner.id}
-        **
-        `))
-  
-  
-      })
-    }
-    
-  })
-
-
-const hastebin = require('hastebin-gen');
-client.on('message', message => {
-var PREFIX = '#';
-    if(message.content.startsWith(PREFIX + 'dis')) {
-            var args = message.content.split(' ').slice(1).join(' ');
-}
-      var array = [];
-      var i = 0;
-      if(args){
-client.users.filter(u => u.discriminator == args).map(u => {
-    if(i > 4){
-     return;
-    }
-    i = i + 1;
-
-   array.push(`${u.tag}`);
 });
-}
-hastebin(`${array.slice(0, 30).join('\n')}`, 'txt').then(l => {
-    message.channel.send(`${l}`);
-}).catch(console.error);
-});
-client.on('message' , message => {
-var PREFIX = '#';
-if(message.content === `${PREFIX}dis         `         ) {
-                      let array = [];
-                      var i = 0;
-client.users.filter(u => u.discriminator == message.author.discriminator).map(u => {
-    if(i > 4){
-     return;
-    }
-    i = i + 1;
-   array.push(`${u.tag}`);
-});
-hastebin(`${array.slice(0, 30).join('\n')}`, 'txt').then(l => {
-    message.channel.send(`${l}`);
-}).catch(console.error);
-
-        }
-});
-
-
 
 client.on('message', rw => {
   if (rw.content.startsWith('#vb')) {
@@ -168,8 +76,8 @@ const embed = new Discord.RichEmbed()
 .setColor("RANDOM")
 .setDescription(`**
  <@${men.id}>
-YOU CANT JOIN THE VOICE ROOM
-BANNER : <@${rw.author.id}> **`)
+لا يمكنك الانضمام إلى غرفة الصوت
+راية : <@${rw.author.id}> **`)
 .setThumbnail("https://cdn.discordapp.com/attachments/408952032112803850/452090205793681419/fd684707fc14f41663f15ecebf089f06.png")
           
 client.users.get(men.id).sendEmbed(embed)
@@ -177,14 +85,13 @@ const Embed11 = new Discord.RichEmbed()
 .setColor("RANDOM")
 .setAuthor(rw.guild.name, rw.guild.iconURL)
 .setDescription(`          <@${men.id}>
-BANNED
-BANNER : <@${rw.author.id}> `)
+محظور
+راية : <@${rw.author.id}> `)
 .setThumbnail("https://cdn.discordapp.com/attachments/408952032112803850/452090205793681419/fd684707fc14f41663f15ecebf089f06.png")
 rw.channel.sendEmbed(Embed11).then(rw => {rw.delete(10000)})
     }
 })
  
- //فكه
 client.on('message', rw => {
   if (rw.content.startsWith('#uvb')) {
 if (!rw.member.hasPermission("MOVE_MEMBERS")) return rw.channel.send("**YOU DONT HAVE PERMISSION** | ❎ ");
@@ -200,8 +107,8 @@ const embed = new Discord.RichEmbed()
 .setColor("RANDOM")
 .setDescription(`**
  <@${men.id}>
- Welcome Back
-Back With : <@${rw.author.id}> **`)
+مرحبا بعودتك
+العودة مع : <@${rw.author.id}> **`)
 .setThumbnail("https://cdn.discordapp.com/attachments/408952032112803850/452093541003296788/start-button-hi.png")
           
 client.users.get(men.id).sendEmbed(embed)
@@ -209,8 +116,8 @@ const Embed11 = new Discord.RichEmbed()
 .setColor("RANDOM")
 .setAuthor(rw.guild.name, rw.guild.iconURL)
 .setDescription(`          <@${men.id}>
-GO FOR VOICE NOW
-With : <@${rw.author.id}>
+الذهاب للحصول على صوت الآن
+مع : <@${rw.author.id}>
 `)
 .setThumbnail("https://cdn.discordapp.com/attachments/408952032112803850/452093541003296788/start-button-hi.png")
 rw.channel.sendEmbed(Embed11).then(rw => {rw.delete(15000)})
@@ -372,7 +279,7 @@ client.on('messageReactionRemove', (reaction, user) => {
  message.author.sendMessage(`
  
  ❖ **السورس الأساسي مع الستريمنق ومعلومات البوت**
- https://pastebin.com/rJCgs6he
+ https://pastebin.com/UQUxsqHU
 `);
 
     }
@@ -394,7 +301,7 @@ client.on('messageReactionRemove', (reaction, user) => {
  message.author.sendMessage(`
  
  ❖ **السورس الأساسي مع الواتشينق**
- https://pastebin.com/pYgG5HRi
+ https://pastebin.com/RSnhYTA7
 `);
 
     }
@@ -414,7 +321,7 @@ client.on('messageReactionRemove', (reaction, user) => {
  message.author.sendMessage(`
  
  ❖ **السورس الاساسي مع البنق**
- https://pastebin.com/1pX8Zdrw
+ https://pastebin.com/dk9h4m8y
 `);
 
     }
@@ -509,7 +416,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود مسح الشات ( الكلير ) نفس سبيد بوت**
+ ❖ **كود مسح الشات براكشن**
  https://pastebin.com/QERKkTtk
 `);
 
@@ -687,7 +594,7 @@ client.on('messageReactionRemove', (reaction, user) => {
  message.author.sendMessage(`
  
  ❖ **كود البنق**
- https://pastebin.com/iCmTpWJX
+ https://pastebin.com/BSqk2X3F
 `);
 
     }
@@ -793,7 +700,7 @@ https://pastebin.com/6zU9sKNt
 
  message.author.sendMessage(`
  
- ❖ **كود معلومات البوت مثل اس بوت**
+ ❖ **كود معلومات البوت**
  https://pastebin.com/W8ENr77E
 `);
 
@@ -853,7 +760,7 @@ https://pastebin.com/6zU9sKNt
  message.author.sendMessage(`
  
  ❖ **كود عمل روم فويس اونلاين **
-https://pastebin.com/KDCEgGnH
+https://pastebin.com/wdPLgb8X
 `);
 
     }
@@ -872,7 +779,7 @@ https://pastebin.com/KDCEgGnH
  message.author.sendMessage(`
  
  ❖ **كود افتار مثل برو بوت **
-https://pastebin.com/nFAURyQH
+https://pastebin.com/KPPXMc7M
 `);
 
     }
@@ -893,7 +800,7 @@ https://pastebin.com/nFAURyQH
  message.author.sendMessage(`
  
  ❖ **كود الوان مثل برو بوت **
-https://pastebin.com/v0mY1UVm
+https://pastebin.com/mmaanFNp
 `);
 
     }
@@ -913,7 +820,7 @@ https://pastebin.com/v0mY1UVm
  message.author.sendMessage(`
  
  ❖ **كود مسح بعدد او بدون عدد مثل البروبوت **
-https://pastebin.com/FLTCitR2
+https://pastebin.com/x2z7LiCq
 `);
 
     }
@@ -1403,10 +1310,10 @@ client.on("message", message => {
 
    .setColor('RANDOM')
   .setTimestamp()
-      .addField(':crown:**__<@511234899655786503>__**',`**${msg.guild.owner}**`,true)
+      .addField(':crown:**__<@564414567946387487>__**',`**${msg.guild.owner}**`,true)
 
 
-       .setFooter('Power Codes.')
+       .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -1488,7 +1395,7 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Power » Support', '• Power » Support Plus');
+  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support', '• Me » Owner');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
@@ -1598,15 +1505,16 @@ if(!message.channel.guild) return message.reply(' ');
 
           collected.first().delete();
 
-          jscodes.send(`@everyone | @here
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Power Codes© ⬇**
+          jscodes.send(`||@everyone | @here||
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+**Me Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
-**المصدر / الشخص الذي صنع الكود**: ${boi2}`);
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+||حـقـوق Me Codes :shield: ||`);
 
         }
 
@@ -1636,7 +1544,7 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Power » Support', '• Power » Support Plus');
+  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support', '• Me » Owner');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
@@ -1746,15 +1654,16 @@ if(!message.channel.guild) return message.reply(' ');
 
           collected.first().delete();
 
-          jscodes.send(`@everyone | @here
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Power Codes© ⬇**
+          jscodes.send(`||@everyone | @here||
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+**Me Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
-**المصدر / الشخص الذي صنع الكود**: ${boi2}`);
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+||حـقـوق Me Codes :shield: ||`);
 
         }
 
@@ -1781,7 +1690,7 @@ ${thisMessage}\`\`\`
 
 client.on ("guildMemberAdd", member => {
   
-   var role = member.guild.roles.find ("name", "• Power » Member");
+   var role = member.guild.roles.find ("name", "• Me » Owner");
    member.addRole (role);
   
 })
@@ -2368,15 +2277,16 @@ if(!message.channel.guild) return message.reply(' ');
 
           collected.first().delete();
 
-          jscodes.send(`@everyone | @here
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Power Codes© ⬇**
+          jscodes.send(`||@everyone | @here||
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+**Me Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
-**المصدر / الشخص الذي صنع الكود**: ${boi2}`);
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+||حـقـوق Me Codes :shield: ||`);
 
         }
 
@@ -2517,15 +2427,16 @@ if(!message.channel.guild) return message.reply(' ');
 
           collected.first().delete();
 
-          jscodes.send(`@everyone | @here
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Power Codes© ⬇**
+          jscodes.send(`||@everyone | @here||
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+**Me Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
-**المصدر / الشخص الذي صنع الكود**: ${boi2}`);
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+||حـقـوق Me Codes :shield: ||`);
 
         }
 
@@ -2677,15 +2588,16 @@ if(!message.channel.guild) return message.reply(' ');
 
           collected.first().delete();
 
-          jscodes.send(`@everyone | @here
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Power Codes© ⬇**
+          jscodes.send(`||@everyone | @here||
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+**Me Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
-**المصدر / الشخص الذي صنع الكود**: ${boi2}`);
+**المصدر / الشخص الذي صنع الكود**: ${boi2}
+||حـقـوق Me Codes :shield: ||`);
 
         }
 
