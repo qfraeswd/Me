@@ -2711,4 +2711,31 @@ ${thisMessage}\`\`\`
             }
 })
 
+client.on('guildMemberAdd', member => {
+    var embed = new Discord.RichEmbed()
+    .setThumbnail(member.user.avatarURL)
+  .addField("***شكرا الانضمامك الينا***" ,member.user.username )
+    .setDescription('***مرحب بك فى Me كودز الى طلب كوادت بوتات***')
+    .setColor('RANDOM')
+    .setImage('https://2.top4top.net/p_1225y7yza1.gif')
+var channel =member.guild.channels.find('name', '✽-welcome')
+if (!channel) return;
+channel.send({embed : embed});
+});
+
+    client.on('guildMemberRemove', member => {
+        var embed = new Discord.RichEmbed()
+        .setAuthor(member.user.username, member.user.avatarURL)
+        .setThumbnail(member.user.avatarURL)
+        .setTitle(`الله معاك ✋:skin-tone-1: 😔`)
+        .setDescription(`مع السلامه تشرفنا بك ✋:skin-tone-1: 😔 `)
+        .addField('👤   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
+        .setColor('RED')
+        .setFooter(`==== نــتــمــنــآ لــكــم آســتــمـــتــآع ====`, 'https://6.top4top.net/p_12250i82f1.jpg')
+   
+    var channel =member.guild.channels.find('name', '✽-welcome')
+    if (!channel) return;
+    channel.send({embed : embed});
+    })
+
 client.login(process.env.BOT_TOKEN);
