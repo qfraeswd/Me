@@ -190,15 +190,15 @@ client.on('messageReactionRemove', (reaction, user) => {
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in Power Codes Server 💬`⦁",' ‎ ')
-  .addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
-   .addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
-     .addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
-	   .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
-	 	   .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
-            .addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
-                 .addField("❧  **#help-js-games        ➺      ⦁ قسم اكواد الالعاب** ⦁",' ‎ ')
- .setFooter('Power Codes.')
+  .addField(":shield: *** كــوادت ســيــرفــر مــتـوفـر الان *** :shield: ",' ‎ ')
+  .addField("✽-  **#help-js-source  -->  ⦁⦓ قسم السورس الأساسي ⦔⦁** :wrench:",' ‎ ')
+  .addField("✽-  **#help-js-admin   -->  ⦁⦓ قسم الأكواد الإدارية ⦔⦁** :tools:",' ‎ ')
+  .addField("✽-  **#help-js-general -->  ⦁⦓ قسم الأكواد العامة ⦔⦁** :busts_in_silhouette:",' ‎ ')
+  .addField("✽-  **#help-js-welcome -->  ⦁⦓ قسم أكواد الترحيب ⦔⦁** :wave:",' ‎ ')
+  .addField("✽-  **#help-js-help    -->  ⦁⦓ قسم أكواد الهلب ⦔⦁** :notepad_spiral:",' ‎ ')
+  .addField("✽-  **#help-js-bc      -->  ⦁⦓ قسم أكواد البرودكاست⦔⦁** :incoming_envelope:",' ‎ ')
+  .addField("✽-  **#help-js-games   -->  ⦁⦓ قسم اكواد الالعاب ⦔⦁** :video_game:",' ‎ ')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -217,13 +217,13 @@ client.on('messageReactionRemove', (reaction, user) => {
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in Power Codes Server 💬`⦁",' ‎ ')
-  .addField("**#help-js-source-1  ➺      ⦁ السورس الأساسي**⦁",' ‎ ')
-   .addField("**#help-js-source-2  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
-     .addField("**#help-js-source-3  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
-	   .addField("**#help-js-source-4  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
+  .addField("⦁كوادت السورس متوفر الان :wrench:⦁",' ‎ ')
+  .addField("✽- **#help-js-source-1  -->  ⦁⦓ السورس الأساسي**⦁" :wrench:,' ‎ ')
+  .addField("✽- **#help-js-source-2  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
+  .addField("✽- **#help-js-source-3  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
+  .addField("✽- **#help-js-source-4  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
 	 
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -245,7 +245,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود السورس الأساسي**
+ ❖ **كود السورس الأساسي :wrench:**
  https://pastebin.com/xGu8E5jA
 `);
 
@@ -278,7 +278,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **السورس الأساسي مع الستريمنق ومعلومات البوت**
+ ❖ **السورس الأساسي مع الستريمنق ومعلومات البوت :wrench:**
  https://pastebin.com/UQUxsqHU
 `);
 
@@ -300,7 +300,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **السورس الأساسي مع الواتشينق**
+ ❖ **السورس الأساسي مع الواتشينق :wrench:**
  https://pastebin.com/RSnhYTA7
 `);
 
@@ -320,7 +320,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **السورس الاساسي مع البنق**
+ ❖ **السورس الاساسي مع البنق :wrench:**
  https://pastebin.com/dk9h4m8y
 `);
 
@@ -333,27 +333,27 @@ client.on('messageReactionRemove', (reaction, user) => {
   
        client.on('message', message => {
     if (message.author.bot) return;
-     if (message.content  === prefix + "help-js-admin") {
+     if (message.content  === prefix + " ") {
           const embed = new Discord.RichEmbed()
   
 
    .setColor('RANDOM')
   .setTimestamp()
 
- .addField("⦁`All types of codes in Power Codes Server 💬`⦁",' ‎ ')
- .addField("**#help-js-admin-1  ➺      ⦁ كود الباند**⦁",' ‎ ')
- .addField("**#help-js-admin-2  ➺      ⦁ كود الكيك** ⦁",' ‎ ')
- .addField("**#help-js-admin-3  ➺      ⦁ كود مسح الشات مع عدد وشبيه بالبروبوت** ⦁",' ‎ ')
- .addField("**#help-js-admin-4  ➺      ⦁ كود فتح وتقفيل الشات** ⦁",' ‎ ')
- .addField("**#help-js-admin-5  ➺      ⦁  كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه** ⦁",' ‎ ')
- .addField("**#help-js-admin-6  ➺      ⦁  كود لانشاء شات كتابي** ⦁",' ‎ ')	  
- .addField("**#help-js-admin-7  ➺      ⦁  كود لانشاء روم صوتي** ⦁",' ‎ ')
- .addField("**#help-js-admin-8  ➺      ⦁  invite : كود دعوه البوت مثال ** ⦁",' ‎ ')	  
- .addField("**#help-js-admin-9  ➺ ⦁  كود الاوتو رول التفعيل داخل السيرفر ** ⦁",' ‎ ')
+ .addField("⦁كوادت الادارة متوفر الان :tools:⦁",' ‎ ')
+ .addField("✽- **#help-js-admin-1 -->  ⦁⦓ كود الباند ⦔⦁** :tools:",' ‎ ')
+ .addField("✽- **#help-js-admin-2 -->  ⦁⦓ كود الكيك ⦔⦁** :tools:",' ‎ ')
+ .addField("✽- **#help-js-admin-3 -->  ⦁⦓ كود مسح الشات مع عدد وشبيه بالبروبوت ⦔⦁** :tools:",' ‎ ')
+ .addField("✽- **#help-js-admin-4 -->  ⦁⦓ كود فتح وتقفيل الشات ⦔⦁**",' ‎ ')
+ .addField("✽- **#help-js-admin-5 -->  ⦁⦓  كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه ⦔⦁** :tools:",' ‎ ')
+ .addField("✽- **#help-js-admin-6 -->  ⦁⦓  كود لانشاء شات كتابي ⦔⦁** :tools:",' ‎ ')	  
+ .addField("✽- **#help-js-admin-7 -->  ⦁⦓  كود لانشاء روم صوتي ⦔⦁** :tools:",' ‎ ')
+ .addField("✽- **#help-js-admin-8 -->  ⦁⦓  invite : كود دعوه البوت مثال ⦔⦁** :tools:",' ‎ ')	  
+ .addField("✽- **#help-js-admin-9 -->  ⦁⦓ كود الاوتو رول التفعيل داخل السيرفر ⦔⦁** :tools:",' ‎ ')
 	  
 	  
 	  
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -375,7 +375,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود الباند**
+ ❖ **كود الباند :tools:**
  https://pastebin.com/YZAXKYUB
 `);
 
@@ -396,7 +396,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود الكيك**
+ ❖ **كود الكيك :tools:**
  https://pastebin.com/0cNVLm1a
 `);
 
@@ -416,7 +416,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود مسح الشات براكشن**
+ ❖ **كود مسح الشات براكشن :tools:**
  https://pastebin.com/QERKkTtk
 `);
 
@@ -438,7 +438,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود فتح وتقفيل الشات**
+ ❖ **كود فتح وتقفيل الشات :tools:**
  https://pastebin.com/gb4me9bS
 `);
 
@@ -457,7 +457,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ ** كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه**
+ ❖ ** كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه :tools:**
  https://pastebin.com/Xe5kzVUw
 `);
 
@@ -475,7 +475,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ ** كود لانشاء شات كتابي**
+ ❖ ** كود لانشاء شات كتابي :tools:**
  https://pastebin.com/ChtbaGu2
 `);
 
@@ -493,7 +493,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ ** كود لانشاء روم صوتي**
+ ❖ ** كود لانشاء روم صوتي :tools:**
  https://pastebin.com/Y2SWEE6N
 `);
 
@@ -513,7 +513,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **invite : كود دعوه البوت مثال **
+ ❖ **invite : كود دعوه البوت مثال :tools:**
  https://pastebin.com/hP9VQpFR
 `);
 
@@ -532,7 +532,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود الاوتو رول التفعيل داخل السيرفر **
+ ❖ **كود الاوتو رول التفعيل داخل السيرفر :tools:**
  https://pastebin.com/7tVEa317
 `);
 
@@ -553,23 +553,23 @@ client.on('messageReactionRemove', (reaction, user) => {
    .setColor('RANDOM')
   .setTimestamp()
 
- .addField("⦁`All types of codes in Power Codes Server 💬`⦁",' ‎ ')
- .addField("**#help-js-general-1  ➺      ⦁ كود البنق **⦁",' ‎ ')
- .addField("**#help-js-general-2  ➺      ⦁ كود لم تمنشن لى البوت يرد عليك بى help ** ⦁",' ‎ ')
- .addField("**#help-js-general-3  ➺      ⦁ كود التصويت مثل برو بوت  ** ⦁",' ‎ ')	  
- .addField("**#help-js-general-4  ➺      ⦁ كود معلومات السيرفر ** ⦁",' ‎ ')
- .addField("**#help-js-general-5  ➺      ⦁ كود المعلومات الشخصية** ⦁",' ‎ ')
- .addField("**#help-js-general-6  ➺      ⦁ كودم معلومات البوت مثل اس بوت** ⦁",' ‎ ')	  
- .addField("**#help-js-general-7  ➺      ⦁ كود id ** ⦁",' ‎ ')
- .addField("**#help-js-general-8  ➺      ⦁ كود rep** ⦁",' ‎ ')	  
- .addField("**#help-js-general-9  ➺      ⦁ كود عمل روم فويس اونلاين** ⦁",' ‎ ')	 
- .addField("**#help-js-general-10  ➺      ⦁ كود افتار مثل برو بوت** ⦁",' ‎ ')
- .addField("**#help-js-general-11  ➺      ⦁ كودالوان مثل برو بوت** ⦁",' ‎ ')	
- .addField("**#help-js-general-12  ➺      ⦁ كودمسح الشات بعدد وبدون عدد** ⦁",' ‎ ')	
+ .addField("⦁ كوادت العامه متوفر الان :busts_in_silhouette: ⦁ ",' ‎ ')
+ .addField("**✽- #help-js-general-1   -->  ⦁⦓ كود البنق ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
+ .addField("**✽- #help-js-general-2   -->  ⦁⦓ كود لم تمنشن لى البوت يرد عليك بى help ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
+ .addField("**✽- #help-js-general-3   -->  ⦁⦓ كود التصويت مثل برو بوت ⦔⦁ ** :busts_in_silhouette:",' ‎ ')	  
+ .addField("**✽- #help-js-general-4   -->  ⦁⦓ كود معلومات السيرفر ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
+ .addField("**✽- #help-js-general-5   -->  ⦁⦓ كود المعلومات الشخصية ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
+ .addField("**✽- #help-js-general-6   -->  ⦁⦓ كودم معلومات البوت مثل اس بوت ⦔⦁ ** :busts_in_silhouette:",' ‎ ')	  
+ .addField("**✽- #help-js-general-7   -->  ⦁⦓ كود id ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
+ .addField("**✽- #help-js-general-8   -->  ⦁⦓ كود rep ⦔⦁ ** :busts_in_silhouette:",' ‎ ')	  
+ .addField("**✽- #help-js-general-9   -->  ⦁⦓ كود عمل روم فويس اونلاين ⦔⦁ ** :busts_in_silhouette:",' ‎ ')	 
+ .addField("**✽- #help-js-general-10  -->  ⦁⦓ كود افتار مثل برو بوت ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
+ .addField("**✽- #help-js-general-11  -->  ⦁⦓ كودالوان مثل برو بوت ⦔⦁ ** :busts_in_silhouette:",' ‎ ')	
+ .addField("**✽- #help-js-general-12  -->  ⦁⦓ كودمسح الشات بعدد وبدون عدد ⦔⦁ ** :busts_in_silhouette:",' ‎ ')	
 
 
 	  
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
    message.channel.send({embed});
 
@@ -593,7 +593,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود البنق**
+ ❖ **كود البنق :busts_in_silhouette:**
  https://pastebin.com/BSqk2X3F
 `);
 
@@ -614,7 +614,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود لم تنمشن لى البوت يرد عليك بى help**
+ ❖ **كود لم تنمشن لى البوت يرد عليك بى help :busts_in_silhouette: **
  https://pastebin.com/ekhNsxq1
 `);
 
@@ -636,7 +636,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 
  message.author.sendMessage(`
  
- ❖ **كود التصويتات مثل برو بوت**
+ ❖ **كود التصويتات مثل برو بوت :busts_in_silhouette:**
 https://pastebin.com/6zU9sKNt
 `);
 
@@ -658,7 +658,7 @@ https://pastebin.com/6zU9sKNt
 
  message.author.sendMessage(`
  
- ❖ **كود معلومات السيرفر**
+ ❖ **كود معلومات السيرفر :busts_in_silhouette:**
  https://pastebin.com/Z082PXt3
 `);
 
@@ -681,7 +681,7 @@ https://pastebin.com/6zU9sKNt
 
  message.author.sendMessage(`
  
- ❖ **كود المعلومات الشخصية**
+ ❖ **كود المعلومات الشخصية :busts_in_silhouette:**
  https://pastebin.com/ZMhAPtSB
 `);
 
@@ -700,7 +700,7 @@ https://pastebin.com/6zU9sKNt
 
  message.author.sendMessage(`
  
- ❖ **كود معلومات البوت**
+ ❖ **كود معلومات البوت :busts_in_silhouette:**
  https://pastebin.com/W8ENr77E
 `);
 
@@ -721,7 +721,7 @@ https://pastebin.com/6zU9sKNt
 
  message.author.sendMessage(`
  
- ❖ **id كود**
+ ❖ **id كود :busts_in_silhouette:**
  https://pastebin.com/vWi7L4mf
 `);
 
@@ -740,7 +740,7 @@ https://pastebin.com/6zU9sKNt
 
  message.author.sendMessage(`
  
- ❖ **كود rep **
+ ❖ **كود rep :busts_in_silhouette:**
  https://pastebin.com/RL44Ew2d
 `);
 
@@ -759,7 +759,7 @@ https://pastebin.com/6zU9sKNt
 
  message.author.sendMessage(`
  
- ❖ **كود عمل روم فويس اونلاين **
+ ❖ **كود عمل روم فويس اونلاين :busts_in_silhouette:**
 https://pastebin.com/wdPLgb8X
 `);
 
@@ -778,7 +778,7 @@ https://pastebin.com/wdPLgb8X
 
  message.author.sendMessage(`
  
- ❖ **كود افتار مثل برو بوت **
+ ❖ **كود افتار مثل برو بوت :busts_in_silhouette:**
 https://pastebin.com/KPPXMc7M
 `);
 
@@ -799,7 +799,7 @@ https://pastebin.com/KPPXMc7M
 
  message.author.sendMessage(`
  
- ❖ **كود الوان مثل برو بوت **
+ ❖ **كود الوان مثل برو بوت :busts_in_silhouette:**
 https://pastebin.com/mmaanFNp
 `);
 
@@ -819,7 +819,7 @@ https://pastebin.com/mmaanFNp
 
  message.author.sendMessage(`
  
- ❖ **كود مسح بعدد او بدون عدد مثل البروبوت **
+ ❖ **كود مسح بعدد او بدون عدد مثل البروبوت :busts_in_silhouette:**
 https://pastebin.com/x2z7LiCq
 `);
 
@@ -839,15 +839,15 @@ https://pastebin.com/x2z7LiCq
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in Power Codes Server 💬`⦁",' ‎ ')
-  .addField("**#help-js-welcome-1  ➺      ⦁ كود ترحيب مع ذكر رقم العضو **⦁",' ‎ ')
-   .addField("**#help-js-welcome-2  ➺      ⦁ كود الترحيب مع صورة ** ⦁",' ‎ ')
-     .addField("**#help-js-welcome-3  ➺      ⦁ كود مغادرة العضو ** ⦁",' ‎ ')
-	       .addField("**#help-js-welcome-4  ➺      ⦁ كود تم دعوته بواسطة ** ⦁",' ‎ ')
+  .addField("⦁كوادت الترحيب متوفر الان :wave: ⦁",' ‎ ')
+  .addField("**✽- #help-js-welcome-1 -->  ⦁⦓ كود ترحيب مع ذكر رقم العضو ⦔⦁** :wave:",' ‎ ')
+  .addField("**✽- #help-js-welcome-2 -->  ⦁⦓ كود الترحيب مع صورة ⦔⦁** :wave:",' ‎ ')
+  .addField("**✽- #help-js-welcome-3 -->  ⦁⦓ كود مغادرة العضو ⦔⦁ ** :wave:",' ‎ ')
+  .addField("**✽- #help-js-welcome-4 -->  ⦁⦓ كود تم دعوته بواسطة ⦔⦁** :wave:",' ‎ ')
 
 	 
 		   
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -869,7 +869,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **كود ترحيب بصورة**
+ ❖ **كود ترحيب بصورة :wave:**
  https://paste.drhack.net/?ded81e2b02cab246#Oej+XdoRpbGnlTET2iH2zKdVCn+WFNCUatLLtOU1urs=
 `);
 
@@ -890,7 +890,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **كود الترحيب في الخاص مع رقم العضو**
+ ❖ **كود الترحيب في الخاص مع رقم العضو :wave:**
  https://paste.drhack.net/?854e74d128b66da8#3menzqbk4bSRPItx7czUQhc1iuwjQRZTyaEVF6ZUktE=
 `);
 
@@ -911,7 +911,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖**كود مغادرة العضو**
+ ❖**كود مغادرة العضو :wave:**
  https://pastebin.com/8Da43txR
 `);
 
@@ -931,7 +931,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **كود تم دعوته بواسطة**
+ ❖ **كود تم دعوته بواسطة :wave:**
  https://pastebin.com/ihCR8nhW
 `);
 
@@ -949,11 +949,11 @@ https://pastebin.com/x2z7LiCq
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in Power Codes Server 💬`⦁",' ‎ ')
-  .addField("**#help-js-help-1  ➺      ⦁ كود هلب مع امبد يرسل بنفس الشات **⦁",' ‎ ')
-   .addField("**#help-js-help-2  ➺      ⦁ كود هلب مزخرف بدون امبد ويرسل عالخاص ** ⦁",' ‎ ')
+  .addField("⦁كوادت الهلب متوفر الان :notepad_spiral:⦁",' ‎ ')
+  .addField("**✽- #help-js-help-1    -->  ⦁⦓ كود هلب مع امبد يرسل بنفس الشات ⦔⦁ **:notepad_spiral:",' ‎ ')
+  .addField("**✽- #help-js-help-2    -->  ⦁⦓ كود هلب مزخرف بدون امبد ويرسل عالخاص ⦔⦁ **:notepad_spiral:",' ‎ ')
 		   
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -975,7 +975,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **كود هلب مع امبد يرسل بالخاص**
+ ❖ **كود هلب مع امبد يرسل بالخاص :notepad_spiral:**
  https://pastebin.com/ZC0FHb0c
 `);
 
@@ -995,7 +995,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **كود هلب بدون امبد ويرسل عالخاص**
+ ❖ **كود هلب بدون امبد ويرسل عالخاص :notepad_spiral:**
  https://pastebin.com/MuCMUQYc
 `);
 
@@ -1015,13 +1015,13 @@ https://pastebin.com/x2z7LiCq
    .setColor('RANDOM')
   .setTimestamp()
 
-  .addField("⦁`All types of codes in Power Codes Server 💬`⦁",' ‎ ')
-  .addField("**#help-js-bc-1  ➺      ⦁ برودكاست + للكل + مطور **⦁",' ‎ ')
-  .addField("**#help-js-bc-2  ➺      ⦁ برودكاست + للكل + غير مطور ** ⦁",' ‎ ')
-  .addField("**#help-js-bc-3  ➺      ⦁ برودكاست + للأونلاين + مع منشن + غير مطور **⦁",' ‎ ')
-  .addField("**#help-js-bc-4  ➺      ⦁ برودكاست + للكل + مع منشن + غير مطور ** ⦁",' ‎ ')	   
+  .addField("⦁***⦁⦓ قسم أكواد البرودكاست ⦔⦁ :incoming_envelope:***⦁",' ‎ ')
+  .addField("**#help-js-bc-1    -->  ⦁⦓ برودكاست + للكل + مطور ⦔⦁** :incoming_envelope:",' ‎ ')
+  .addField("**#help-js-bc-2    -->  ⦁⦓ برودكاست + للكل + غير مطور ⦔⦁** :incoming_envelope:",' ‎ ')
+  .addField("**#help-js-bc-3    -->  ⦁⦓ برودكاست + للأونلاين + مع منشن + غير مطور ⦔⦁** :incoming_envelope:",' ‎ ')
+  .addField("**#help-js-bc-4    -->  ⦁⦓ برودكاست + للكل + مع منشن + غير مطور ** ⦔⦁** :incoming_envelope:",' ‎ ')	   
 		   
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -1049,7 +1049,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **برودكاست + للكل **
+ ❖ **برودكاست + للكل :incoming_envelope:**
  https://pastebin.com/n2SyjdwH
 `);
 
@@ -1069,7 +1069,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **برودكاست + للكل + غير مطور**
+ ❖ **برودكاست + للكل + غير مطور :incoming_envelope:**
  https://pastebin.com/n2SyjdwH
 `);
 
@@ -1090,7 +1090,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ ** برودكاست + للأونلاين + مع منشن + غير مطور**
+ ❖ ** برودكاست + للأونلاين + مع منشن + غير مطور :incoming_envelope:**
  https://pastebin.com/n2SyjdwH
 `);
 
@@ -1111,7 +1111,7 @@ https://pastebin.com/x2z7LiCq
 
  message.author.sendMessage(`
  
- ❖ **برودكاست + للكل + مع منشن + غير مطور**
+ ❖ **برودكاست + للكل + مع منشن + غير مطور :incoming_envelope:**
  https://pastebin.com/n2SyjdwH
 `);
 
@@ -1356,7 +1356,7 @@ client.on("message", message => {
 .addField("❖ ❖ #ping ➾ عرض سرعه اتصال البوت ⦁",' ‎ ')
 .addField("❖ ❖ #server ➾ معلومات عن السيرفر ⦁",' ‎ ')
 
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -1375,10 +1375,10 @@ if (message.content === prefix + 'help-eris') {
   .setTimestamp()
 
   .addField("╔[❖════════════❖]╗",' ‎ ')
- .addField("      تحت الصيانه     ",' ‎ ')
+ .addField("      قــريـــب نــشــاألله...     ",' ‎ ')
  .addField("  ╚[❖════════════❖]╝`⦁",' ‎ ')
 
- .setFooter('Power Codes.')
+ .setFooter('Me Codes.')
 
 
    message.channel.send({embed});
@@ -1704,22 +1704,22 @@ client.on('message', message => {
  .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in PowerCodes Server 💬`⦁",' ‎ ')
-.addField("**#help-js-games-1  ➺      ⦁ لعبة اسئلة فورت نايت**⦁",' ‎ ')
- .addField("**#help-js-games-2  ➺      ⦁ لعبة صراحة** ⦁",' ‎ ')
-     .addField("**#help-js-games-3  ➺      ⦁ لعبة كت تويت** ⦁",' ‎ ')
-       .addField("**#help-js-games-4  ➺      ⦁ لعبة لو خيروك** ⦁",' ‎ ')
-       .addField("**#help-js-games-5  ➺      ⦁ لعبة مريم** ⦁",' ‎ ')
-       .addField("**#help-js-games-6  ➺      ⦁ لعبة عقاب** ⦁",' ‎ ')
-       .addField("**#help-js-games-7  ➺      ⦁ لعبة فكك تحتاج جيسون** ⦁",' ‎ ')
-       .addField("**#help-js-games-8  ➺      ⦁ لعبة قرعة** ⦁",' ‎ ')
-       .addField("**#help-js-games-9  ➺      ⦁ لعبة اكس او** ⦁",' ‎ ')
-       .addField("**#help-js-games-10  ➺      ⦁ لعبة اسرع كتابة** ⦁",' ‎ ')
-       .addField("**#help-js-games-11  ➺      ⦁ كود صراحه ** ⦁",' ‎ ')
-        .addField("**#help-js-games-12  ➺      ⦁ كود قرعه ** ⦁",' ‎ ')
-        .addField("**#help-js-games-13  ➺      ⦁ كود كت تويت ** ⦁",' ‎ ')
+.addField("⦁***⦁⦓ قسم اكواد الالعاب ⦔⦁*** :video_game:⦁",' ‎ ')
+.addField("**#help-js-games-1   -->  ⦁⦓ لعبة اسئلة فورت نايت ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-2   -->  ⦁⦓ لعبة صراحة ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-3   -->  ⦁⦓ لعبة كت تويت ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-4   -->  ⦁⦓ لعبة لو خيروك ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-5   -->  ⦁⦓ لعبة مريم ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-6   -->  ⦁⦓ لعبة عقاب ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-7   -->  ⦁⦓ لعبة فكك تحتاج جيسون ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-8   -->  ⦁⦓ لعبة قرعة ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-9   -->  ⦁⦓ لعبة اكس او ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-10  -->  ⦁⦓ لعبة اسرع كتابة ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-11  -->  ⦁⦓ كود صراحه ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-12  -->  ⦁⦓ كود قرعه ⦔⦁** :video_game:",' ‎ ')
+.addField("**#help-js-games-13  -->  ⦁⦓ كود كت تويت ⦔⦁** :video_game:",' ‎ ')
 
-   .setFooter('Power Cods')
+   .setFooter('Me Cods')
 
 
    message.channel.send({embed});
@@ -1738,7 +1738,7 @@ client.on('message', message => {
 
  message.author.sendMessage(`
  
- ❖ **كود اسئلة لعبة فورت نايت**
+ ❖ **كود اسئلة لعبة فورت نايت :video_game:**
  https://pastebin.com/ycDVzyup
 `);
 
@@ -1755,7 +1755,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة صراحة**
+❖ **كود لعبة صراحة :video_game:**
 https://pastebin.com/sgtxADHu
 `);
 
@@ -1772,7 +1772,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة كت تويت**
+❖ **كود لعبة كت تويت :video_game:**
 https://paste.drhack.net/?ea5251c741026c3d#B/AW3E7mlppg8obzbnEIGgbjSc6PRFHnDqBTeOk+svw=
 `);
 
@@ -1789,7 +1789,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة لو خيروك**
+❖ **كود لعبة لو خيروك :video_game:**
 https://paste.drhack.net/?eae21f05292515ca#Q0wYzgc1EWSI9aPafHGGTpKqLN9yypU02d/5BSnmp/M=
 `);
 
@@ -1806,7 +1806,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة مريم**
+❖ **كود لعبة مريم :video_game:**
 https://pastebin.com/ELJPi6Ef
 `);
 
@@ -1823,7 +1823,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة مريم **
+❖ **كود لعبة مريم :video_game:**
 https://pastebin.com/kuEXN67Z
 `);
 
@@ -1840,7 +1840,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة عقاب**
+❖ **كود لعبة عقاب :video_game:**
 https://pastebin.com/ELJPi6Ef
 `);
 
@@ -1857,7 +1857,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة فكك**
+❖ **كود لعبة فكك :video_game:**
 https://pastebin.com/7xpL4KB4
 `);
 
@@ -1874,7 +1874,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود قرعة**
+❖ **كود قرعة :video_game:**
 https://pastebin.com/Rh2BLmZC
 `);
 
@@ -1891,7 +1891,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة اكس او**
+❖ **كود لعبة اكس او :video_game:**
 https://pastebin.com/ADDKWuse
 `);
 
@@ -1908,7 +1908,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود لعبة اسرع كتابة**
+❖ **كود لعبة اسرع كتابة :video_game:**
 https://pastebin.com/PfvYF1ak
 `);
 
@@ -1925,7 +1925,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود صراحه **
+❖ **كود صراحه :video_game:**
  https://pastebin.com/fak2SQsm
 `);
 
@@ -1942,7 +1942,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود قرعه **
+❖ **كود قرعه :video_game:**
  https://pastebin.com/eZHv8NPC
 `);
 
@@ -1959,7 +1959,7 @@ client.on('message', message => {
 
 
 message.author.sendMessage(`
-❖ **كود كت تويت  **
+❖ **كود كت تويت  :video_game:**
  https://pastebin.com/fak2SQsm
 `);
 
