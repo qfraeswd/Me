@@ -2524,7 +2524,7 @@ client.on('guildMemberAdd', member => {
     var embed = new Discord.RichEmbed()
     .setThumbnail(member.user.avatarURL)
   .addField("***شكرا الانضمامك الينا***" ,member.user.username )
-    .setDescription('** __M__e __C__odes **')
+    .setDescription('**# ``-`` __W__elcome __T__ø  __M__e __C__odes :champagne_glass:**')
     .setColor('RANDOM')
     .setImage('https://2.top4top.net/p_1225y7yza1.gif')
 var channel =member.guild.channels.find('name', '✽-welcome')
@@ -2562,5 +2562,13 @@ ${prefix}php = ✽-code-php
     
    }
    });
+
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(`**# ``-`` __W__elcome __T__ø  __M__e __C__odes :champagne_glass:**
+**__اســم عــضـو__** :bust_in_silhouette:: ${member}  
+**__انــت عــضــو رقــم__** :medal:: ${member.guild.memberCount} `) 
+}).catch(console.error)
+})
 
 client.login(process.env.BOT_TOKEN);
