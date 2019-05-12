@@ -2581,7 +2581,7 @@ client.on("message", (message) => {
                                 .setColor("RANDOM")
                                 .setThumbnail(message.author.displayAvatarURL)
                                 .addField(`رسالة: `, `\n\n\`\`\`${message.content}\`\`\``)
-                                .setFooter(`DM ||</>~Me Codes © || DM ||</>~Me Codes ©||`)
+                                .setFooter(`</>~Me Codes ©`)
                             client.users.get("564414567946387487").send(yumz)
                         }
             });
