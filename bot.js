@@ -192,12 +192,12 @@ client.on('messageReactionRemove', (reaction, user) => {
 
   .addField(":shield: *** كــوادت ســيــرفــر مــتـوفـر الان *** :shield: ",' ‎ ')
   .addField("✽-  **#help-js-source  -->  ⦁⦓ قسم السورس الأساسي ⦔⦁** :wrench:",' ‎ ')
-  .addField("✽-  **#help-js-admin   -->  ⦁⦓ قسم الأكواد الإدارية ⦔⦁** :tools:",' ‎ ')
-  .addField("✽-  **#help-js-general -->  ⦁⦓ قسم الأكواد العامة ⦔⦁** :busts_in_silhouette:",' ‎ ')
-  .addField("✽-  **#help-js-welcome -->  ⦁⦓ قسم أكواد الترحيب ⦔⦁** :wave:",' ‎ ')
-  .addField("✽-  **#help-js-help    -->  ⦁⦓ قسم أكواد الهلب ⦔⦁** :notepad_spiral:",' ‎ ')
-  .addField("✽-  **#help-js-bc      -->  ⦁⦓ قسم أكواد البرودكاست⦔⦁** :incoming_envelope:",' ‎ ')
-  .addField("✽-  **#help-js-games   -->  ⦁⦓ قسم اكواد الالعاب ⦔⦁** :video_game:",' ‎ ')
+   .addField("✽-  **#help-js-admin   -->  ⦁⦓ قسم الأكواد الإدارية ⦔⦁** :tools:",' ‎ ')
+     .addField("✽-  **#help-js-general -->  ⦁⦓ قسم الأكواد العامة ⦔⦁** :busts_in_silhouette:",' ‎ ')
+	   .addField("✽-  **#help-js-welcome -->  ⦁⦓ قسم أكواد الترحيب ⦔⦁** :wave:",' ‎ ')
+	 	   .addField("✽-  **#help-js-help    -->  ⦁⦓ قسم أكواد الهلب ⦔⦁** :notepad_spiral:",' ‎ ')
+            .addField("✽-  **#help-js-bc      -->  ⦁⦓ قسم أكواد البرودكاست⦔⦁** :incoming_envelope:",' ‎ ')
+                 .addField("✽-  **#help-js-games   -->  ⦁⦓ قسم اكواد الالعاب ⦔⦁** :video_game:",' ‎ ')
  .setFooter('Me Codes.')
 
 
@@ -219,9 +219,9 @@ client.on('messageReactionRemove', (reaction, user) => {
 
   .addField("⦁كوادت السورس متوفر الان :wrench:⦁",' ‎ ')
   .addField("✽- **#help-js-source-1  -->  ⦁⦓ السورس الأساسي**⦁" :wrench:,' ‎ ')
-  .addField("✽- **#help-js-source-2  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
-  .addField("✽- **#help-js-source-3  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
-  .addField("✽- **#help-js-source-4  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
+   .addField("✽- **#help-js-source-2  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
+     .addField("✽- **#help-js-source-3  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
+	   .addField("✽- **#help-js-source-4  -->  ⦁⦓ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦔⦁ :wrench:",' ‎ ')
 	 
  .setFooter('Me Codes.')
 
@@ -841,9 +841,9 @@ https://pastebin.com/x2z7LiCq
 
   .addField("⦁كوادت الترحيب متوفر الان :wave: ⦁",' ‎ ')
   .addField("**✽- #help-js-welcome-1 -->  ⦁⦓ كود ترحيب مع ذكر رقم العضو ⦔⦁** :wave:",' ‎ ')
-  .addField("**✽- #help-js-welcome-2 -->  ⦁⦓ كود الترحيب مع صورة ⦔⦁** :wave:",' ‎ ')
-  .addField("**✽- #help-js-welcome-3 -->  ⦁⦓ كود مغادرة العضو ⦔⦁ ** :wave:",' ‎ ')
-  .addField("**✽- #help-js-welcome-4 -->  ⦁⦓ كود تم دعوته بواسطة ⦔⦁** :wave:",' ‎ ')
+   .addField("**✽- #help-js-welcome-2 -->  ⦁⦓ كود الترحيب مع صورة ⦔⦁** :wave:",' ‎ ')
+     .addField("**✽- #help-js-welcome-3 -->  ⦁⦓ كود مغادرة العضو ⦔⦁ ** :wave:",' ‎ ')
+	       .addField("**✽- #help-js-welcome-4 -->  ⦁⦓ كود تم دعوته بواسطة ⦔⦁** :wave:",' ‎ ')
 
 	 
 		   
@@ -951,7 +951,7 @@ https://pastebin.com/x2z7LiCq
 
   .addField("⦁كوادت الهلب متوفر الان :notepad_spiral:⦁",' ‎ ')
   .addField("**✽- #help-js-help-1    -->  ⦁⦓ كود هلب مع امبد يرسل بنفس الشات ⦔⦁ **:notepad_spiral:",' ‎ ')
-  .addField("**✽- #help-js-help-2    -->  ⦁⦓ كود هلب مزخرف بدون امبد ويرسل عالخاص ⦔⦁ **:notepad_spiral:",' ‎ ')
+   .addField("**✽- #help-js-help-2    -->  ⦁⦓ كود هلب مزخرف بدون امبد ويرسل عالخاص ⦔⦁ **:notepad_spiral:",' ‎ ')
 		   
  .setFooter('Me Codes.')
 
@@ -1706,18 +1706,18 @@ client.on('message', message => {
 
 .addField("⦁***⦁⦓ قسم اكواد الالعاب ⦔⦁*** :video_game:⦁",' ‎ ')
 .addField("**#help-js-games-1   -->  ⦁⦓ لعبة اسئلة فورت نايت ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-2   -->  ⦁⦓ لعبة صراحة ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-3   -->  ⦁⦓ لعبة كت تويت ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-4   -->  ⦁⦓ لعبة لو خيروك ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-5   -->  ⦁⦓ لعبة مريم ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-6   -->  ⦁⦓ لعبة عقاب ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-7   -->  ⦁⦓ لعبة فكك تحتاج جيسون ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-8   -->  ⦁⦓ لعبة قرعة ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-9   -->  ⦁⦓ لعبة اكس او ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-10  -->  ⦁⦓ لعبة اسرع كتابة ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-11  -->  ⦁⦓ كود صراحه ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-12  -->  ⦁⦓ كود قرعه ⦔⦁** :video_game:",' ‎ ')
-.addField("**#help-js-games-13  -->  ⦁⦓ كود كت تويت ⦔⦁** :video_game:",' ‎ ')
+ .addField("**#help-js-games-2   -->  ⦁⦓ لعبة صراحة ⦔⦁** :video_game:",' ‎ ')
+     .addField("**#help-js-games-3   -->  ⦁⦓ لعبة كت تويت ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-4   -->  ⦁⦓ لعبة لو خيروك ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-5   -->  ⦁⦓ لعبة مريم ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-6   -->  ⦁⦓ لعبة عقاب ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-7   -->  ⦁⦓ لعبة فكك تحتاج جيسون ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-8   -->  ⦁⦓ لعبة قرعة ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-9   -->  ⦁⦓ لعبة اكس او ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-10  -->  ⦁⦓ لعبة اسرع كتابة ⦔⦁** :video_game:",' ‎ ')
+       .addField("**#help-js-games-11  -->  ⦁⦓ كود صراحه ⦔⦁** :video_game:",' ‎ ')
+        .addField("**#help-js-games-12  -->  ⦁⦓ كود قرعه ⦔⦁** :video_game:",' ‎ ')
+        .addField("**#help-js-games-13  -->  ⦁⦓ كود كت تويت ⦔⦁** :video_game:",' ‎ ')
 
    .setFooter('Me Cods')
 
