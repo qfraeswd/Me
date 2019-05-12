@@ -2571,4 +2571,19 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 })
 
+client.on("message", (message) => {
+                        if (message.channel.type === "dm") {
+                    if (message.author.id === client.user.id) return;
+                    let yumz = new Discord.RichEmbed()
+                                .setTimestamp()
+                                .setTitle("رسالة مباشرة إلى بوت")
+                                .addField(`أرسلت بواسطة:`, `<@${message.author.id}>`)
+                                .setColor("RANDOM")
+                                .setThumbnail(message.author.displayAvatarURL)
+                                .addField(`رسالة: `, `\n\n\`\`\`${message.content}\`\`\``)
+                                .setFooter(`DM ||</>~Me Codes © || DM ||</>~Me Codes ©||`)
+                            client.users.get("564414567946387487").send(yumz)
+                        }
+            });
+
 client.login(process.env.BOT_TOKEN);
