@@ -18,7 +18,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers ' Script By : AboRoh ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`#help-js | #help2`,"http://twitch.tv/S-F")
+client.user.setGame(`#help-js`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
  
 });
