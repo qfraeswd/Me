@@ -198,10 +198,10 @@ client.on('messageReactionRemove', (reaction, user) => {
 	 	   .addField("✽-  **#help-js-help    -->  ⦁⦓ قسم أكواد الهلب ⦔⦁** :notepad_spiral:",' ‎ ')
             .addField("✽-  **#help-js-bc      -->  ⦁⦓ قسم أكواد البرودكاست⦔⦁** :incoming_envelope:",' ‎ ')
                  .addField("✽-  **#help-js-games   -->  ⦁⦓ قسم اكواد الالعاب ⦔⦁** :video_game:",' ‎ ')
-				 .addField("✽-  **#help-js-all    -->  ⦁⦓  قسم أكواد منوعة ⦔⦁**",' ‎ ')
-				    .addField("✽-  **#help-js-music     -->  ⦁⦓  قسم أكواد الميوزك ⦔⦁**",' ‎ ')
-				    .addField("✽-  **#help-js-islam    -->  ⦁⦓ قسم أكواد الاسلامية ⦔⦁**",' ‎ ')
-				      .addField("✽-  **#help-js-own     -->  ⦁⦓  قسم كواد صحاب بوتات ⦔⦁**",' ‎ ')
+				 .addField("✽-  **#help-js-all    -->  ⦁⦓  قسم أكواد منوعة ⦔⦁ :paperclips:**",' ‎ ')
+				    .addField("✽-  **#help-js-music     -->  ⦁⦓  قسم أكواد الميوزك ⦔⦁ :headphones:**",' ')
+				    .addField("✽-  **#help-js-islam    -->  ⦁⦓ قسم أكواد الاسلامية ⦔⦁ :kaaba:**",' ‎ ')
+				      .addField("✽-  **#help-js-own     -->  ⦁⦓  قسم كواد صحاب بوتات ⦔⦁ :crown:**",' ‎ ')
  .setFooter('</>~Me Codes ©')
 
 
@@ -3324,8 +3324,8 @@ https://pastebin.com/e6v3GYys`);
   .setTimestamp()
 
   .addField(":shield: `قـسـم كـوادت اللباثيويونون` :shield:",' ‎ ')
-  .addField("✽- **#help-py-source  -->  ⦁⦓ قسم السورس الأساسي **⦔⦁ ",' ‎ ')
-   .addField("✽- **#help-py-admin  -->  ⦁⦓  قسم الأكواد الإدارية **⦔⦁  ",' ‎ ')
+  .addField("✽- **#help-py-source  -->  ⦁⦓ قسم السورس الأساسي **⦔⦁ :wrench:**",' ‎ ')
+   .addField("✽- **#help-py-admin  -->  ⦁⦓  قسم الأكواد الإدارية **⦔⦁ :gear:**",' ‎ ')
      .addField("** قـريـب بـاذن الله الـجـديـد",' ‎ ')
  .setFooter('</>~Me Codes ©')
 
