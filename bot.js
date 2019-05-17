@@ -1782,29 +1782,7 @@ client.on("message", message => {
 .addField("❖ ❖ #ping ➾ عرض سرعه اتصال البوت ⦁",' ‎ ')
 .addField("❖ ❖ #server ➾ معلومات عن السيرفر ⦁",' ‎ ')
 
- .setFooter('</>~Me Codes ©')
-
-
-   message.channel.send({embed});
-
-
-    }
-});
-
-
-  client.on('message', message => {
-if (message.content === prefix + 'help-eris') {
-          const embed = new Discord.RichEmbed()
-  
-
-   .setColor('RANDOM')
-  .setTimestamp()
-
-  .addField("╔[❖════════════❖]╗",' ‎ ')
- .addField("      تحت الصيانه     ",' ‎ ')
- .addField("  ╚[❖════════════❖]╝`⦁",' ‎ ')
-
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3505,7 +3483,7 @@ ${prefix}css = ✽-code-css
 ${prefix}php = ✽-code-php
 ***
 
-||**__</>~Me Codes ©__**||
+||**__</>~Toxic Codes ©__**||
 	  `)
    message.channel.sendEmbed(embed)
     
