@@ -198,10 +198,10 @@ client.on('messageReactionRemove', (reaction, user) => {
 	 	   .addField("✽-  **#help-js-help    -->  ⦁⦓ قسم أكواد الهلب ⦔⦁** :notepad_spiral:",' ‎ ')
             .addField("✽-  **#help-js-bc      -->  ⦁⦓ قسم أكواد البرودكاست⦔⦁** :incoming_envelope:",' ‎ ')
                  .addField("✽-  **#help-js-games   -->  ⦁⦓ قسم اكواد الالعاب ⦔⦁** :video_game:",' ‎ ')
-				 .addField("✽-  **#help-js-all    -->  ⦁⦓  قسم أكواد منوعة ⦔⦁ :paperclips:**",' ‎ ')
-				    .addField("✽-  **#help-js-music     -->  ⦁⦓  قسم أكواد الميوزك ⦔⦁ :headphones:**",' ')
-				    .addField("✽-  **#help-js-islam    -->  ⦁⦓ قسم أكواد الاسلامية ⦔⦁ :kaaba:**",' ‎ ')
-				      .addField("✽-  **#help-js-own     -->  ⦁⦓  قسم كواد صحاب بوتات ⦔⦁ :crown:**",' ‎ ')
+				 .addField("✽-  **#help-js-all    -->  ⦁⦓  قسم أكواد منوعة ⦔⦁**",' ‎ ')
+				    .addField("✽-  **#help-js-music     -->  ⦁⦓  قسم أكواد الميوزك ⦔⦁**",' ‎ ')
+				    .addField("✽-  **#help-js-islam    -->  ⦁⦓ قسم أكواد الاسلامية ⦔⦁**",' ‎ ')
+				      .addField("✽-  **#help-js-own     -->  ⦁⦓  قسم كواد صحاب بوتات ⦔⦁**",' ‎ ')
  .setFooter('</>~Toxic Codes ©')
 
 
@@ -1791,6 +1791,28 @@ client.on("message", message => {
     }
 });
 
+
+  client.on('message', message => {
+if (message.content === prefix + 'help-eris') {
+          const embed = new Discord.RichEmbed()
+  
+
+   .setColor('RANDOM')
+  .setTimestamp()
+
+  .addField("╔[❖════════════❖]╗",' ‎ ')
+ .addField("      تحت الصيانه     ",' ‎ ')
+ .addField("  ╚[❖════════════❖]╝`⦁",' ‎ ')
+
+ .setFooter('</>~Toxic Codes ©')
+
+
+   message.channel.send({embed});
+
+
+    }
+});
+
 var guilds = {};
 
 client.on('message',async message => {
@@ -3302,8 +3324,8 @@ https://pastebin.com/e6v3GYys`);
   .setTimestamp()
 
   .addField(":shield: `قـسـم كـوادت اللباثيويونون` :shield:",' ‎ ')
-  .addField("✽- **#help-py-source  -->  ⦁⦓ قسم السورس الأساسي **⦔⦁ :wrench:**",' ‎ ')
-   .addField("✽- **#help-py-admin  -->  ⦁⦓  قسم الأكواد الإدارية **⦔⦁ :gear:**",' ‎ ')
+  .addField("✽- **#help-py-source  -->  ⦁⦓ قسم السورس الأساسي **⦔⦁ ",' ‎ ')
+   .addField("✽- **#help-py-admin  -->  ⦁⦓  قسم الأكواد الإدارية **⦔⦁  ",' ‎ ')
      .addField("** قـريـب بـاذن الله الـجـديـد",' ‎ ')
  .setFooter('</>~Toxic Codes ©')
 
@@ -3483,7 +3505,7 @@ ${prefix}css = ✽-code-css
 ${prefix}php = ✽-code-php
 ***
 
-||**__</>~Toxic Codes ©__**||
+||**__</>~Me Codes ©__**||
 	  `)
    message.channel.sendEmbed(embed)
     
