@@ -202,7 +202,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 				    .addField("✽-  **#help-js-music     -->  ⦁⦓  قسم أكواد الميوزك ⦔⦁ :headphones:**",' ')
 				    .addField("✽-  **#help-js-islam    -->  ⦁⦓ قسم أكواد الاسلامية ⦔⦁ :kaaba:**",' ‎ ')
 				      .addField("✽-  **#help-js-own     -->  ⦁⦓  قسم كواد صحاب بوتات ⦔⦁ :crown:**",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -228,7 +228,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 	   .addField("✽- **#help-js-source-5  -->  ⦁⦓ كود السورس الأساسي المطور مع معلومات البوت** ⦔⦁ :wrench:",' ‎ ')
 	     .addField("✽- **#help-js-source-6  -->  ⦁⦓ لكود السورس مع الواتشيتق** ⦔⦁ :wrench:",' ‎ ')
 	 
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -389,7 +389,7 @@ https://pastebin.com/za7YYbzC
  .addField("✽- **#help-js-admin-18 -->  ⦁⦓ كود ديفن و ان ديفن ⦔⦁** :tools:",' ‎ ')
  .addField("✽- **#help-js-admin-19 -->  ⦁⦓ كود منع السب ⦔⦁** :tools:",' ‎ ')
  .addField("✽- **#help-js-admin-20 -->  ⦁⦓ كواد رد تلقائى ⦔⦁** :tools:",' ‎ ')  
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -777,7 +777,7 @@ https://pastebin.com/jws17TS9`);
  .addField("**✽- #help-js-general-16  -->  ⦁⦓ كود ترسل رساله الي خاص الشخص بالمنشن ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
  .addField("**✽- #help-js-general-17  -->  ⦁⦓ كلام فى الحب ⦔⦁ ** :busts_in_silhouette:",' ‎ ')
  .addField("**✽- #help-js-general-18  -->  ⦁⦓ عطاء رتب تلقائى عند دخول سيرفر ⦔⦁ ** :busts_in_silhouette:",' ‎ ') 
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
    message.channel.send({embed});
 
@@ -1121,7 +1121,7 @@ https://pastebin.com/DdUZ73Sv`);
 		   .addField("**✽- #help-js-welcome-5 -->  ⦁⦓ كود ترحيب بامبد و مغادره كذلك ⦔⦁** :wave:",' ‎ ')
 		   .addField("**✽- #help-js-welcome-6 -->  ⦁⦓ كود ترحيب بصوره + invited by ⦔⦁** :wave:",' ‎ ')	
            .addField("**✽- #help-js-welcome-7 -->  ⦁⦓ كود ترحيب معريب  ⦔⦁** :wave:",' ‎ ')			   
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -1269,7 +1269,7 @@ https://pastebin.com/KSj3PnYn`);
      .addField("**✽- #help-js-help-5    -->  ⦁⦓ كود هلب 3 صفحات برياكشن ⦔⦁ **:notepad_spiral:",' ‎ ')
        .addField("**✽- #help-js-help-6    -->  ⦁⦓ كود هلب متعدد ⦔⦁ **:notepad_spiral:",' ‎ ')
        .addField("**✽- #help-js-help-7    -->  ⦁⦓ كود هلب متعدد اللغات ⦔⦁ **:notepad_spiral:",' ‎ ')		   
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -1419,7 +1419,7 @@ https://pastebin.com/epR5iGMr`);
   .addField("**#help-js-bc-7    -->  ⦁⦓ برودكاست  لشخص مع المنشن ⦔⦁** :incoming_envelope:",' ‎ ')
   .addField("**#help-js-bc-8    -->  ⦁⦓ برودكاست  برياكشن اذا بامبد او بدون امبد ⦔⦁** :incoming_envelope:",' ‎ ')
   .addField("**#help-js-bc-9    -->  ⦁⦓ برودكاست  رساله بدون اسم السيرفر او اسم الشخص رساله بس ⦔⦁** :incoming_envelope:",' ‎ ')	   
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -2149,7 +2149,7 @@ client.on('message', message => {
 			.addField("**#help-js-games-17  -->  ⦁⦓ لعبة انمي** :video_game:",' ‎ ')
 			 .addField("**✽- #help-js-games-18  -->  ⦁⦓ لعبة زاحف ⦔⦁ ** :busts_in_silhouette:",' ‎ ') 
 
-   .setFooter('</>~Me Codes ©')
+   .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -2944,7 +2944,7 @@ ${thisMessage}\`\`\`
      .addField("✽- **#help-js-all-3  -->  ⦁⦓ كود اكس بي كتابه**⦔⦁ :paperclips:",' ‎ ')
 	   .addField("✽- **#help-js-all-4  -->  ⦁⦓ كود بروفايل خرافي**⦔⦁ :paperclips:",' ‎ ')
 		    .addField("✽- **#help-js-all-5  -->  ⦁⦓ كود الرسم كانفاس**⦔⦁ :paperclips:",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3049,7 +3049,7 @@ ${thisMessage}\`\`\`
   .addField("✽- **#help-js-music-1  -->  ⦁⦓ كود الميوزك بالارقام **⦔⦁ :headphones:",' ‎ ')
    .addField("✽- **#help-js-music-2  -->  ⦁⦓ كود ميوزك جافا **⦔⦁ :headphones:",' ‎ ')
      .addField("✽- **#help-js-music-3  -->  ⦁⦓ كود الميوزك المتداول في الجيت هب **⦔⦁ :headphones:",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3122,7 +3122,7 @@ https://pastebin.com/Vq9MgpNV`);
   .addField("✽- **#help-js-islam-1  -->  ⦁⦓ كود الاستماع للقران **⦔⦁ :kaaba:",' ‎ ')
    .addField("✽- **#help-js-islam-2  -->  ⦁⦓ كود الاذكار **⦔⦁ :kaaba: ",' ‎ ')
      .addField("✽- **#help-js-islam-3  -->  ⦁⦓ كود صفحات القران **⦔⦁ :kaaba:",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3198,7 +3198,7 @@ https://paste.drhack.net/?d9cf349ee7f8139e#NtOlraKgmiOuriWwjXCHCDSWDqSGFD8NCNjFV
      .addField("✽- **#help-js-own-3  -->  ⦁⦓  كود التحكم في حالات البوت **⦔⦁ :crown:",' ‎ ')
 	 .addField("✽- **#help-js-own-4  -->  ⦁⦓  كود اذا احد كلمة البوت يرسل لك في الخاص **⦔⦁ :crown:",' ‎ ')
 	  .addField("✽- **#help-js-own-5  -->  ⦁⦓  كود يرسل راسل لي صحاب البوت **⦔⦁ :crown:",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3305,7 +3305,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("`قـسـم كـوادت </>~~Me Codes ©` ",' ‎ ')
   .addField("✽- **#help-js  -->  ⦁⦓  قائمة أكواد الجافا سكربت **⦔⦁ ",' ‎ ')
    .addField("✽- **#help-py  -->  ⦁⦓ قائمة أكواد البايثون **⦔⦁  ",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3327,7 +3327,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("✽- **#help-py-source  -->  ⦁⦓ قسم السورس الأساسي **⦔⦁ :wrench:**",' ‎ ')
    .addField("✽- **#help-py-admin  -->  ⦁⦓  قسم الأكواد الإدارية **⦔⦁ :gear:**",' ‎ ')
      .addField("** قـريـب بـاذن الله الـجـديـد",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3349,7 +3349,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("✽- **#help-py-source-1  -->  ⦁⦓ السورس الأساسي + البيرفكس **⦔⦁ :wrench:",' ‎ ')
    .addField("✽- **#help-py-source-2  -->  ⦁⦓ السورس الاساسي من غير بير فكس **⦔⦁ :wrench:",' ‎ ')
      .addField("** قــريــب بـاذن الله **",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
@@ -3406,7 +3406,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("✽- **#help-py-admin-1  -->  ⦁⦓ كود اذا دخل البوت لسيرفر يعطيك معلومات عنه + امبد للبايثونوبس **⦔⦁ :gear: ",' ‎ ')
    .addField("✽- **#help-py-admin-2  -->  ⦁⦓ كود يغيرلك النك نيم حقك فالسيرفر **⦔⦁ :gear:  ",' ‎ ')
      .addField("✽- **#help-py-admin-3  -->  ⦁⦓ كود يجيبلك الأيموجيز حقت السيرفر**⦔⦁ :gear: ",' ‎ ')
- .setFooter('</>~Me Codes ©')
+ .setFooter('</>~Toxic Codes ©')
 
 
    message.channel.send({embed});
