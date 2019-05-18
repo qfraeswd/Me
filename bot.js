@@ -2783,7 +2783,7 @@ ${thisMessage}\`\`\`
 
 client.on('message',async message => {
  
-  if(message.content.startsWith(prefix + "php")) {
+  if(message.content.startsWith(prefix + "Ex")) {
 
 if(!message.channel.guild) return message.reply(' ');
 
