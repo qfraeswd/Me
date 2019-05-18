@@ -3469,12 +3469,12 @@ https://pastebin.com/e6v3GYys`);
 }); 
 
 client.on("message",async message => {
-if(message.content === '#heroku'){
+if(message.content.startsWith(prefix + "heroku")) {
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » heroku");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » heroku__ .. :x:**`)
 var shopc = message.guild.channels.find("name","۞-explained-heroku")
   if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
-    let #heroku = '';
+    let heroku = '';
       let fillter = m => m.author.id === message.author.id
       
      
@@ -3483,7 +3483,7 @@ var shopc = message.guild.channels.find("name","۞-explained-heroku")
            message.channel.awaitMessages(fillter, { time: 60000, max: 1                                    
 })
      .then(co => {
-       #heroku = co.first().content;
+       heroku = co.first().content;
         co.first().delete();
      
 let desc = '';
@@ -3498,7 +3498,7 @@ e.edit("Done").then(e => {
   shopc.send(`${message.guild.name}
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-:tv: | ** video link ** : ${#heroku}
+:tv: | ** video link ** : ${heroku}
 
 :film_frames: | ** Video Description ** : ${desc}
 
@@ -3519,7 +3519,7 @@ e.edit("Done").then(e => {
 });
 
 client.on("message",async message => {
-if(message.content === '#kalash'){
+if(message.content.startsWith(prefix + "kalash")) {
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » kalash");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » kalash__ .. :x:**`)
 var shopc = message.guild.channels.find("name","۞-explained-kalash")
@@ -3533,7 +3533,7 @@ var shopc = message.guild.channels.find("name","۞-explained-kalash")
            message.channel.awaitMessages(fillter, { time: 60000, max: 1                                    
 })
      .then(co => {
-       #kalash = co.first().content;
+       kalash = co.first().content;
         co.first().delete();
      
 let desc = '';
@@ -3547,7 +3547,7 @@ e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then
 e.edit("Done").then(e => {
   shopc.send(`**${message.guild.name}**
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:tv: | ** video link ** : ${#kalash}
+:tv: | ** video link ** : ${kalash}
 
 :film_frames: | ** Video Description ** : ${desc}
 
@@ -3598,7 +3598,7 @@ client.on("message", message => {
  if (message.content === `${prefix}`) {
   const embed = new Discord.RichEmbed()
       .setColor("#000000")
-      .setDescription(`***▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+      .setDescription(`***▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ${prefix}js     = #۞-discord-js
 ${prefix}py     = #۞-discord-py
 ${prefix}html   = #۞-discord-html
@@ -3606,8 +3606,8 @@ ${prefix}css    = #۞-code-css
 ${prefix}php    = #۞-code-php
 ${prefix}heroku = # ۞-explained-heroku
 ${prefix}kalash = # ۞-explained-kalash
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬***
-
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+***
 ||**__</>~Me Codes ©__**||`)
    message.channel.sendEmbed(embed)
     
