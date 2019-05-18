@@ -3469,7 +3469,7 @@ https://pastebin.com/e6v3GYys`);
 }); 
 
 client.on("message",async message => {
-if(message.content.startsWith(prefix + "heroku")) {
+if(message.content === 'heroku'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » heroku");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » heroku__ .. :x:**`)
 var shopc = message.guild.channels.find("name","۞-explained-heroku")
@@ -3519,7 +3519,7 @@ e.edit("Done").then(e => {
 });
 
 client.on("message",async message => {
-if(message.content.startsWith(prefix + "kalash")) {
+if(message.content === 'kalash'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » kalash");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » kalash__ .. :x:**`)
 var shopc = message.guild.channels.find("name","۞-explained-kalash")
@@ -3604,8 +3604,11 @@ ${prefix}py     = #۞-discord-py
 ${prefix}html   = #۞-discord-html
 ${prefix}css    = #۞-code-css
 ${prefix}php    = #۞-code-php
-${prefix}heroku = # ۞-explained-heroku
-${prefix}kalash = # ۞-explained-kalash
+▬▬▬▬▬▬▬▬▬▬▬▬
+اوامر بدون{ ${prefix} }
+▬▬▬▬▬▬▬
+heroku = # ۞-explained-heroku
+kalash = # ۞-explained-kalash
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ***
 ||**__</>~Me Codes ©__**||`)
