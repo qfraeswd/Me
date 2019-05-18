@@ -1935,13 +1935,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**Me Codes© ⬇**
+:arrow_down: **</>~~__M__e __C__odes ©**
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | **Describe**     : ${boi}
-:wrench: | **Made by **    : ${boi2}
-:incoming_envelope: | **Shared By **  : ${message.author}`);
+:bookmark_tabs: | ***Describe***     : **${boi}**
+:wrench: | ****Made by ***    : **${boi2}**
+:incoming_envelope: | ***Shared By ***  : **${message.author}`);**
 
         }
 
@@ -2083,13 +2083,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**Me Codes© ⬇**
+:arrow_down: | **</>~~__M__e __C__odes ©**
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | **Describe**     :  ${boi}
-:wrench: | **Made by **    : ${boi2}
-:incoming_envelope: | **Shared By **  : ${message.author}`);
+:bookmark_tabs: | ***Describe***     :  **${boi}**
+:wrench: | ***Made by ***    : **${boi2}**
+:incoming_envelope: | ***Shared By ***  : **${message.author}**`);
 
         }
 
@@ -2605,13 +2605,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-</>~~__M__e __C__odes ©
+:arrow_down: | </>~~__M__e __C__odes ©
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | **Describe**     : ${boi}
-:wrench: | **Made by **    : ${boi2}
-:incoming_envelope: | **Shared By ** : ${message.author}`);
+:bookmark_tabs: | ***Describe***     : **${boi}**
+:wrench: | ***Made by ***    : **${boi2}**
+:incoming_envelope: | ***Shared By *** : **${message.author}**`);
 
         }
 
@@ -2753,13 +2753,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-</>~~__M__e __C__odes ©
+:arrow_down: | </>~~__M__e __C__odes ©
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | **Describe**     : ${boi}
-:wrench: | **Made by **    : ${boi2}
-:incoming_envelope: | **Shared By ** : ${message.author}`);
+:bookmark_tabs: | ***Describe***     : **${boi}**
+:wrench: | ***Made by ***    : **${boi2}**
+:incoming_envelope: | ***Shared By *** : **${message.author}**`);
 
         }
 
@@ -2901,13 +2901,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-</>~~__M__e __C__odes ©
+:arrow_down: | </>~~__M__e __C__odes ©
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | **Describe**     : ${boi}
-:wrench: | **Made by **    : ${boi2}
-:incoming_envelope: | **Shared By ** : ${message.author}`);
+:bookmark_tabs: | ***Describe***     : **${boi}**
+:wrench: | ***Made by ***    : **${boi2}**
+:incoming_envelope: | ***Shared By *** : **${message.author}**`);
 
         }
 
