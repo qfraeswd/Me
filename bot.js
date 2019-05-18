@@ -2787,11 +2787,11 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '• Me » PhP Support');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "۞-code-php");
+  let jscodes = message.guild.channels.find(`name`, "✽-code-php");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -2903,9 +2903,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**وصف الكود** :microscope:: ${boi}
-**تم النشر بواسطة** :mens:: ${message.author}
-**المصدر/الشخص الذي صنع الكود :bust_in_silhouette:** : ${boi2}`);
+:have: | **Describe** : ${boi}
+:incoming_envelope: | **Shared By ** :mens:: ${message.author}
+:Settings: | **Made by ** : ${boi2}`);
 
         }
 
