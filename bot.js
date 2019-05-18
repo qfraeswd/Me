@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const giphy = require('giphy-api')();
 const fs = require("fs");
 const prefix = "#";
-const devs = ['564414567946387487' , '488574748629139459' , '569233904389718028' , '523865295337553921'];
+const devs = ['564414567946387487' , '523865295337553921' , '488574748629139459' , '564414567946387487'];
 const adminprefix = "#";
 
 client.on('ready', () => {
@@ -145,6 +145,7 @@ client.on("message", async message => {
       stopReacord = false;
     }    
 })
+
 client.on('raw', raw => {
   if (!['MESSAGE_REACTION_ADD', 'MESSAGE_REACTION_REMOVE'].includes(raw.t)) return;
   var channel = client.channels.get(raw.d.channel_id);
@@ -155,6 +156,7 @@ client.on('raw', raw => {
     if (raw.t === 'MESSAGE_REACTION_REMOVE') return client.emit('messageReactionRemove', reaction, client.users.get(raw.d.user_id));
   });
 });
+
 client.on('messageReactionAdd', (reaction, user) => {
     if(user.id == client.user.id) return;
     if(!stopReacord) {
@@ -198,11 +200,11 @@ client.on('messageReactionRemove', (reaction, user) => {
 	 	   .addField("✽-  **#help-js-help    -->  ⦁⦓ قسم أكواد الهلب ⦔⦁** :notepad_spiral:",' ‎ ')
             .addField("✽-  **#help-js-bc      -->  ⦁⦓ قسم أكواد البرودكاست⦔⦁** :incoming_envelope:",' ‎ ')
                  .addField("✽-  **#help-js-games   -->  ⦁⦓ قسم اكواد الالعاب ⦔⦁** :video_game:",' ‎ ')
-				 .addField("✽-  **#help-js-all    -->  ⦁⦓  قسم أكواد منوعة ⦔⦁ :paperclips:**",' ‎ ')
-				    .addField("✽-  **#help-js-music     -->  ⦁⦓  قسم أكواد الميوزك ⦔⦁ :headphones:**",' ‎ ')
-				    .addField("✽-  **#help-js-islam    -->  ⦁⦓ قسم أكواد الاسلامية ⦔⦁ :kaaba:**",' ‎ ')
-				      .addField("✽-  **#help-js-own     -->  ⦁⦓  قسم كواد صحاب بوتات ⦔⦁ :crown:**",' ‎ ')
- .setFooter('</>~Toxic Codes ©')
+				 .addField("✽-  **#help-js-all    -->  ⦁⦓  قسم أكواد منوعة ⦔⦁**",' ‎ ')
+				    .addField("✽-  **#help-js-music     -->  ⦁⦓  قسم أكواد الميوزك ⦔⦁**",' ‎ ')
+				    .addField("✽-  **#help-js-islam    -->  ⦁⦓ قسم أكواد الاسلامية ⦔⦁**",' ‎ ')
+				      .addField("✽-  **#help-js-own     -->  ⦁⦓  قسم كواد صحاب بوتات ⦔⦁**",' ‎ ')
+ .setFooter('||</>~Toxic Codes ©||')
 
 
    message.channel.send({embed});
@@ -1821,9 +1823,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support', '• Me » Owner');
+  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support', '• Me » JS Support');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » JS Support__ الى ستخدام هذا امر.**');
 
   let jscodes = message.guild.channels.find(`name`, "۞-discord-js");
 
@@ -1937,9 +1939,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**وصف الكود** :microscope:: ${boi}
-**تم النشر بواسطة** :mens:: ${message.author}
-**المصدر/الشخص الذي صنع الكود :bust_in_silhouette:**: ${boi2}`);
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By **  : ${message.author}`);
 
         }
 
@@ -1969,9 +1971,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support', '• Me » Owner');
+  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support', '• Me » HTML Support');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » HTML Support__ الى ستخدام هذا امر**');
 
   let jscodes = message.guild.channels.find(`name`, "۞-discord-html");
 
@@ -2085,9 +2087,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**وصف الكود** :microscope:: ${boi}
-**تم النشر بواسطة** :mens:: ${message.author}
-**المصدر/الشخص الذي صنع الكود :bust_in_silhouette:**: ${boi2}`);
+:bookmark_tabs: | **Describe**     :  ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By **  : ${message.author}`);
 
         }
 
@@ -2491,9 +2493,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '• Me » Py Support');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تملك __• Me » Py Support__ الى استخدام هذا امر**');
 
   let jscodes = message.guild.channels.find(`name`, "۞-discord-py");
 
@@ -2603,13 +2605,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**Me Codes© ⬇**
+</>~~__M__e __C__odes ©
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**وصف الكود** :microscope:: ${boi}
-**تم النشر بواسطة** :mens:: ${message.author}
-**المصدر/الشخص الذي صنع الكود :bust_in_silhouette:**: ${boi2}`);
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By ** : ${message.author}`);
 
         }
 
@@ -2639,9 +2641,9 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Me » Support');
+  let rank = message.guild.member(message.author).roles.find('name', '• Me » CSS Support');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » CSS Support__ الى ستخدام هذا امر.**');
 
   let jscodes = message.guild.channels.find(`name`, "۞-code-css");
 
@@ -2751,13 +2753,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**Me Codes© ⬇**
+</>~~__M__e __C__odes ©
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**وصف الكود** :microscope:: ${boi}
-**تم النشر بواسطة** :mens:: ${message.author}
-**المصدر/الشخص الذي صنع الكود :bust_in_silhouette:**: ${boi2}`);
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By ** : ${message.author}`);
 
         }
 
@@ -2783,15 +2785,15 @@ ${thisMessage}\`\`\`
 
 client.on('message',async message => {
  
-  if(message.content.startsWith(prefix + "Ex")) {
+  if(message.content.startsWith(prefix + "php")) {
 
 if(!message.channel.guild) return message.reply(' ');
 
   let rank = message.guild.member(message.author).roles.find('name', '• Me » PhP Support');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » PhP Support__ الاستخدام هذا امر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-code-php");
+  let jscodes = message.guild.channels.find(`name`, "۞-code-php");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -2899,13 +2901,13 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-**Me Codes© ⬇**
+</>~~__M__e __C__odes ©
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:have: | **Describe** : ${boi}
-:incoming_envelope: | **Shared By ** :mens:: ${message.author}
-:Settings: | **Made by ** : ${boi2}`);
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By ** : ${message.author}`);
 
         }
 
@@ -3466,6 +3468,105 @@ https://pastebin.com/e6v3GYys`);
     }
 }); 
 
+client.on("message",async message => {
+if(message.content === '#heroku'){
+let staff = message.guild.member(message.author).roles.find('name' ,"• Me » heroku");
+      if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » heroku__ .. :x:**`)
+var shopc = message.guild.channels.find("name","۞-explained-heroku")
+  if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
+    let #heroku = '';
+      let fillter = m => m.author.id === message.author.id
+      
+     
+
+      await message.channel.send(":projector: | رجـاء وضـع رابـط فـيـديـو يـوتـيـوب .. :dvd:").then(e => {
+           message.channel.awaitMessages(fillter, { time: 60000, max: 1                                    
+})
+     .then(co => {
+       #heroku = co.first().content;
+        co.first().delete();
+     
+let desc = '';
+        
+e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then(e => {
+  message.channel.awaitMessages(fillter, { time: 60000, max: 1 })
+
+     .then(co => {
+       desc = co.first().content;
+        co.first().delete();
+e.edit("Done").then(e => {
+  shopc.send(`${message.guild.name}
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+:tv: | ** video link ** : ${#heroku}
+
+:film_frames: | ** Video Description ** : ${desc}
+
+:printer: | **Rights by ** : ${message.author}`)
+  })
+})
+  })
+})
+  })
+           
+      
+  
+     
+  
+      
+           
+}
+});
+
+client.on("message",async message => {
+if(message.content === '#kalash'){
+let staff = message.guild.member(message.author).roles.find('name' ,"• Me » kalash");
+      if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » kalash__ .. :x:**`)
+var shopc = message.guild.channels.find("name","۞-explained-kalash")
+  if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
+    let #kalash = '';
+      let fillter = m => m.author.id === message.author.id
+      
+     
+
+      await message.channel.send(":projector: | رجـاء وضـع رابـط فـيـديـو يـوتـيـوب .. :dvd:").then(e => {
+           message.channel.awaitMessages(fillter, { time: 60000, max: 1                                    
+})
+     .then(co => {
+       #kalash = co.first().content;
+        co.first().delete();
+     
+let desc = '';
+        
+e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then(e => {
+  message.channel.awaitMessages(fillter, { time: 60000, max: 1 })
+
+     .then(co => {
+       desc = co.first().content;
+        co.first().delete();
+e.edit("Done").then(e => {
+  shopc.send(`**${message.guild.name}**
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+:tv: | ** video link ** : ${#kalash}
+
+:film_frames: | ** Video Description ** : ${desc}
+
+:printer: | **Rights by ** : ${message.author}`)
+  })
+})
+  })
+})
+  })
+           
+      
+  
+     
+  
+      
+           
+}
+});
+
 client.on('guildMemberAdd', member => {
     var embed = new Discord.RichEmbed()
     .setThumbnail(member.user.avatarURL)
@@ -3473,7 +3574,7 @@ client.on('guildMemberAdd', member => {
     .setDescription('**# ``-`` __W__elcome __T__ø  __M__e __C__odes :champagne_glass:**')
     .setColor('RANDOM')
     .setImage('https://2.top4top.net/p_1225y7yza1.gif')
-var channel =member.guild.channels.find('name', '۞-welcome')
+var channel =member.guild.channels.find('name', '✽-welcome')
 if (!channel) return;
 channel.send({embed : embed});
 });
@@ -3488,7 +3589,7 @@ channel.send({embed : embed});
         .setColor('RED')
         .setFooter(`==== نــتــمــنــآ لــكــم آســتــمـــتــآع ====`, 'https://6.top4top.net/p_12250i82f1.jpg')
    
-    var channel =member.guild.channels.find('name', '۞-welcome')
+    var channel =member.guild.channels.find('name', '✽-welcome')
     if (!channel) return;
     channel.send({embed : embed});
     })
@@ -3497,16 +3598,17 @@ client.on("message", message => {
  if (message.content === `${prefix}`) {
   const embed = new Discord.RichEmbed()
       .setColor("#000000")
-      .setDescription(`***
-${prefix}js = ✽-discord-js
-${prefix}py = ✽-discord-py
-${prefix}html = ✽-discord-html
-${prefix}css = ✽-code-css
-${prefix}php = ✽-code-php
-***
+      .setDescription(`***▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+${prefix}js     = #۞-discord-js
+${prefix}py     = #۞-discord-py
+${prefix}html   = #۞-discord-html
+${prefix}css    = #۞-code-css
+${prefix}php    = #۞-code-php
+${prefix}heroku = # ۞-explained-heroku
+${prefix}kalash = # ۞-explained-kalash
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬***
 
-||**__</>~Me Codes ©__**||
-	  `)
+||**__</>~Me Codes ©__**||`)
    message.channel.sendEmbed(embed)
     
    }
