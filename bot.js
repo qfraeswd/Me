@@ -3479,7 +3479,7 @@ var shopc = message.guild.channels.find("name","۞-explained-heroku")
       
      
 
-      await message.channel.send(":projector: | رجـاء وضـع رابـط فـيـديـو يـوتـيـوب .. :dvd:").then(e => {
+      await message.channel.send(":projector: | **رجـاء وضـع رابـط فـيـديـو يـوتـيـوب** .. :dvd:").then(e => {
            message.channel.awaitMessages(fillter, { time: 60000, max: 1                                    
 })
      .then(co => {
@@ -3494,15 +3494,17 @@ e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then
      .then(co => {
        desc = co.first().content;
         co.first().delete();
-e.edit("Done").then(e => {
-  shopc.send(`${message.guild.name}
+e.edit("** تـم نـشـره فـيـديـو ** :white_check_mark:").then(e => {
+  shopc.send(`***${message.guild.name}***
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 :tv: | ** video link ** : ${heroku}
 
-:film_frames: | ** Video Description ** : ${desc}
+:film_frames: | ** Video Description ** : **${desc}**
 
-:printer: | **Rights by ** : ${message.author}`)
+:printer: | **Rights by ** : ${message.author}
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+||@everyone | @here||`)
   })
 })
   })
@@ -3529,7 +3531,7 @@ var shopc = message.guild.channels.find("name","۞-explained-kalash")
       
      
 
-      await message.channel.send(":projector: | رجـاء وضـع رابـط فـيـديـو يـوتـيـوب .. :dvd:").then(e => {
+      await message.channel.send(":projector: | **رجـاء وضـع رابـط فـيـديـو يـوتـيـوب** .. :dvd:").then(e => {
            message.channel.awaitMessages(fillter, { time: 60000, max: 1                                    
 })
      .then(co => {
@@ -3544,14 +3546,16 @@ e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then
      .then(co => {
        desc = co.first().content;
         co.first().delete();
-e.edit("Done").then(e => {
-  shopc.send(`**${message.guild.name}**
+e.edit("** تـم نـشـره فـى شـات فـيـديـو ** :white_check_mark:").then(e => {
+  shopc.send(`***${message.guild.name}***
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 :tv: | ** video link ** : ${kalash}
 
-:film_frames: | ** Video Description ** : ${desc}
+:film_frames: | ** Video Description ** : **${desc}**
 
-:printer: | **Rights by ** : ${message.author}`)
+:printer: | **Rights by ** : ${message.author}
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+||@everyone | @here||`)
   })
 })
   })
