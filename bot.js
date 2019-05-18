@@ -1939,9 +1939,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | ***Describe***     : **${boi}**
-:wrench: | ****Made by ***    : **${boi2}**
-:incoming_envelope: | ***Shared By ***  : **${message.author}`);**
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By**   : ${message.author}`);
 
         }
 
@@ -2087,9 +2087,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | ***Describe***     :  **${boi}**
-:wrench: | ***Made by ***    : **${boi2}**
-:incoming_envelope: | ***Shared By ***  : **${message.author}**`);
+:bookmark_tabs: | **Describe**     :  ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By **  : ${message.author}`);
 
         }
 
@@ -2609,9 +2609,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | ***Describe***     : **${boi}**
-:wrench: | ***Made by ***    : **${boi2}**
-:incoming_envelope: | ***Shared By *** : **${message.author}**`);
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By ** : ${message.author}`);
 
         }
 
@@ -2757,9 +2757,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | ***Describe***     : **${boi}**
-:wrench: | ***Made by ***    : **${boi2}**
-:incoming_envelope: | ***Shared By *** : **${message.author}**`);
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By ** : ${message.author}`);
 
         }
 
@@ -2905,9 +2905,9 @@ if(!message.channel.guild) return message.reply(' ');
 \`\`\`css
 ${thisMessage}\`\`\`
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:bookmark_tabs: | ***Describe***     : **${boi}**
-:wrench: | ***Made by ***    : **${boi2}**
-:incoming_envelope: | ***Shared By *** : **${message.author}**`);
+:bookmark_tabs: | **Describe**     : ${boi}
+:wrench: | **Made by **    : ${boi2}
+:incoming_envelope: | **Shared By ** : ${message.author}`);
 
         }
 
