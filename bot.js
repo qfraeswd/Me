@@ -3578,7 +3578,7 @@ client.on('guildMemberAdd', member => {
     .setDescription('**# ``-`` __W__elcome __T__ø  __M__e __C__odes :champagne_glass:**')
     .setColor('RANDOM')
     .setImage('https://2.top4top.net/p_1225y7yza1.gif')
-var channel =member.guild.channels.find('name', '✽-welcome')
+var channel =member.guild.channels.find('name', '۞-welcome')
 if (!channel) return;
 channel.send({embed : embed});
 });
@@ -3593,7 +3593,7 @@ channel.send({embed : embed});
         .setColor('RED')
         .setFooter(`==== نــتــمــنــآ لــكــم آســتــمـــتــآع ====`, 'https://6.top4top.net/p_12250i82f1.jpg')
    
-    var channel =member.guild.channels.find('name', '✽-welcome')
+    var channel =member.guild.channels.find('name', '۞-welcome')
     if (!channel) return;
     channel.send({embed : embed});
     })
