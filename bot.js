@@ -2899,10 +2899,6 @@ if(!message.channel.guild) return message.reply(' ');
 
           collected.first().delete();
 		
-		    message.author.sendEmbed(embed).then(msg => {
-
-        msg.react('◀').then( r => {
-            msg.react('▶')
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
