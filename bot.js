@@ -2819,7 +2819,7 @@ https://hasteb.in/usabaxiq.xml`);
 
      client.on('message', message => {
     if (message.author.bot) return;
-     if (message.content  === prefix + "help-html-games") {
+     if (message.content  === prefix + "help-html-admin") {
           const embed = new Discord.RichEmbed()
   
 
@@ -3945,7 +3945,7 @@ ${prefix}setw      = تغير حاله
 ${prefix}leave     = تغير حاله
 ${prefix}setg      = تغير حاله
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-مسوالين بوت
+مسؤلين بوت
 ▬▬▬▬▬▬▬▬▬▬▬▬
 1-• Me » ➹⎛ トゥルキパシャ ⎞♔❥
 2-• Me » Reem .🍷
