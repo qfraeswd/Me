@@ -3575,7 +3575,7 @@ client.on("message",async message => {
 if(message.content === 'HTML'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » HTML");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » HTML__ .. :x:**`)
-var shopc = message.guild.channels.find("name","۞-explained-HTML")
+var shopc = message.guild.channels.find("name","۞-explained-html")
   if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
     let HTML = '';
       let fillter = m => m.author.id === message.author.id
