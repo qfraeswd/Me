@@ -3944,7 +3944,6 @@ HTML   = #۞-explained-html
  client.on("message", message => {
  if (message.content === `${prefix}Me`) {
   const embed = new Discord.RichEmbed()
-   message.react(':heart:')
       .setColor("#ff3300")
       .setDescription(`***▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 كـواد تـغـيـر حالات بـوت
