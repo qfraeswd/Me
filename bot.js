@@ -3667,6 +3667,9 @@ kalash = # ۞-explained-kalash
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ***
 ||**__</>~Me Codes ©__**||`)
+       Room.sendEmbed(embed).then(c => {
+         c.react('✅').then(() =>
+            c.react('❌'))
    message.channel.sendEmbed(embed)
     
    }
