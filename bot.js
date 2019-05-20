@@ -3013,7 +3013,7 @@ e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then
        desc = co.first().content;
         co.first().delete();
 e.edit(" | **تـم نـشـره فـى شـات** .. :ok_hand:").then(e => {
-  shopc.send(`${message.guild.name}
+  shopc.send(`***${message.guild.name}***
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 
 :tv: | ** video link ** : ${heroku}
@@ -3065,7 +3065,7 @@ e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then
        desc = co.first().content;
         co.first().delete();
 e.edit(" | **تـم نـشـره فـى شـات** .. :ok_hand:").then(e => {
-  shopc.send(`**${message.guild.name}**
+  shopc.send(`***${message.guild.name}***
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 :tv: | ** video link ** : ${kalash}
 
@@ -3848,7 +3848,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`||@everyone | @here||
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
-</>~~__M__e __C__odes ©
+**</>~~__M__e __C__odes ©**
 \`\`\`css
 ${thisMessage}\`\`\`
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
