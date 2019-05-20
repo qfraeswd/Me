@@ -3571,6 +3571,57 @@ e.edit("** تـم نـشـره فـى شـات فـيـديـو ** :white_check_
 }
 });
 
+client.on("message",async message => {
+if(message.content === 'HTML'){
+let staff = message.guild.member(message.author).roles.find('name' ,"• Me » HTML");
+      if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » HTML__ .. :x:**`)
+var shopc = message.guild.channels.find("name","۞-explained-HTML")
+  if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
+    let HTML = '';
+      let fillter = m => m.author.id === message.author.id
+      
+     
+
+      await message.channel.send(":projector: | **رجـاء وضـع رابـط فـيـديـو يـوتـيـوب** .. :dvd:").then(e => {
+           message.channel.awaitMessages(fillter, { time: 60000, max: 1                                    
+})
+     .then(co => {
+       HTML = co.first().content;
+        co.first().delete();
+     
+let desc = '';
+        
+e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then(e => {
+  message.channel.awaitMessages(fillter, { time: 60000, max: 1 })
+
+     .then(co => {
+       desc = co.first().content;
+        co.first().delete();
+e.edit("** تـم نـشـره فـى شـات فـيـديـو ** :white_check_mark:").then(e => {
+  shopc.send(`***${message.guild.name}***
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+:tv: | ** video link ** : ${HTML}
+
+:film_frames: | ** Video Description ** : **${desc}**
+
+:printer: | **Rights by ** : ${message.author}
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+||@everyone | @here||`)
+  })
+})
+  })
+})
+  })
+           
+      
+  
+     
+  
+      
+           
+}
+});
+
 client.on('guildMemberAdd', member => {
     var embed = new Discord.RichEmbed()
     .setThumbnail(member.user.avatarURL)
