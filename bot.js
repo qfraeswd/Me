@@ -3021,6 +3021,7 @@ e.edit(" | **تـم نـشـره فـى شـات** .. :ok_hand:").then(e => {
 :film_frames: | ** Video Description ** : ${desc}
 
 :printer: | **Rights by ** : ${message.author}
+
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 ||@everyone | @here||`)
   })
@@ -3067,11 +3068,13 @@ e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then
 e.edit(" | **تـم نـشـره فـى شـات** .. :ok_hand:").then(e => {
   shopc.send(`***${message.guild.name}***
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
+
 :tv: | ** video link ** : ${kalash}
 
 :film_frames: | ** Video Description ** : ${desc}
 
 :printer: | **Rights by ** : ${message.author}
+
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 ||@everyone | @here||`)
   })
@@ -3118,9 +3121,13 @@ e.edit(":scroll: | **اكـتـب وصـف فـيـديـو** .. :crayon:").then
 e.edit("** تـم نـشـره فـى شـات فـيـديـو ** :white_check_mark:").then(e => {
   shopc.send(`***${message.guild.name}***
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
+
 :tv: | ** video link ** : ${HTML}
+
 :film_frames: | ** Video Description ** : **${desc}**
+
 :printer: | **Rights by ** : ${message.author}
+
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 ||@everyone | @here||`)
   })
@@ -3255,11 +3262,12 @@ if(!message.channel.guild) return message.reply(' ');
           collected.first().delete();
 
           jscodes.send(`||@everyone | @here||
-⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 **</>~~__M__e __C__odes ©**
+⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 \`\`\`css
 ${thisMessage}\`\`\`
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
+
 :bookmark_tabs: | **Describe**     : ${boi}
 :wrench: | **Made by **    : ${boi2}
 :incoming_envelope: | **Shared By ** : ${message.author}`);
@@ -3403,11 +3411,12 @@ if(!message.channel.guild) return message.reply(' ');
           collected.first().delete();
 
           jscodes.send(`||@everyone | @here||
-⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 **</>~~__M__e __C__odes ©**
+⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 \`\`\`css
 ${thisMessage}\`\`\`
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
+
 :bookmark_tabs: | **Describe**     : ${boi}
 :wrench: | **Made by **    : ${boi2}
 :incoming_envelope: | **Shared By ** : ${message.author}`);
@@ -3551,11 +3560,12 @@ if(!message.channel.guild) return message.reply(' ');
           collected.first().delete();
 
           jscodes.send(`||@everyone | @here||
-⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 **Me Codes© ⬇**
+⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 \`\`\`css
 ${thisMessage}\`\`\`
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
+
 :bookmark_tabs: | **Describe**     : ${boi}
 :wrench: | **Made by **    : ${boi2}
 :incoming_envelope: | **Shared By **  : ${message.author}`);
@@ -3699,11 +3709,12 @@ if(!message.channel.guild) return message.reply(' ');
           collected.first().delete();
 
           jscodes.send(`||@everyone | @here||
-⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 **Me Codes© ⬇**
+⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 \`\`\`css
 ${thisMessage}\`\`\`
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
+
 :bookmark_tabs: | **Describe**     :  ${boi}
 :wrench: | **Made by **    : ${boi2}
 :incoming_envelope: | **Shared By **  : ${message.author}`);
@@ -3847,11 +3858,12 @@ if(!message.channel.guild) return message.reply(' ');
           collected.first().delete();
 
           jscodes.send(`||@everyone | @here||
-⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 **</>~~__M__e __C__odes ©**
+⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
 \`\`\`css
 ${thisMessage}\`\`\`
 ⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱⧰⧱
+
 :bookmark_tabs: | **Describe**     : ${boi}
 :wrench: | **Made by **    : ${boi2}
 :incoming_envelope: | **Shared By ** : ${message.author}`);
