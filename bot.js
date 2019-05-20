@@ -2898,6 +2898,11 @@ if(!message.channel.guild) return message.reply(' ');
           msg.edit('🕊 **| Done ✅, تم بنجاح نشر كودك في روم الاكواد**');
 
           collected.first().delete();
+		
+		    message.author.sendEmbed(embed).then(msg => {
+
+        msg.react('◀').then( r => {
+            msg.react('▶')
 
           jscodes.send(`||@everyone | @here||
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
