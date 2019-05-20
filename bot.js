@@ -2908,8 +2908,6 @@ ${thisMessage}\`\`\`
 :bookmark_tabs: | **Describe**     : ${boi}
 :wrench: | **Made by **    : ${boi2}
 :incoming_envelope: | **Shared By ** : ${message.author}`);
-		           c.react('✅').then(() =>
-               c.react('❌'))
 
         }
 
