@@ -2908,6 +2908,8 @@ ${thisMessage}\`\`\`
 :bookmark_tabs: | **Describe**     : ${boi}
 :wrench: | **Made by **    : ${boi2}
 :incoming_envelope: | **Shared By ** : ${message.author}`);
+		           c.react('✅').then(() =>
+               c.react('❌'))
 
         }
 
@@ -3667,9 +3669,6 @@ kalash = # ۞-explained-kalash
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ***
 ||**__</>~Me Codes ©__**||`)
-       Room.sendEmbed(embed).then(c => {
-         c.react('✅').then(() =>
-            c.react('❌'))
    message.channel.sendEmbed(embed)
     
    }
