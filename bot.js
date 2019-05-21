@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const giphy = require('giphy-api')();
 const fs = require("fs");
 const prefix = "#";
-const devs = ['564414567946387487' , '523865295337553921' , '488574748629139459'];
+const devs = ['564414567946387487' , '523865295337553921' , '488574748629139459' , '434414586960150539'];
 const adminprefix = "#";
 
 client.on('ready', () => {
@@ -3962,6 +3962,7 @@ ${prefix}setg      = تغير حاله
 1-• Me » ➹⎛ トゥルキパシャ ⎞♔❥
 2-• Me » Reem .🍷
 3-• Me » D̷o̷̶Ḿa̶ |̷ B̷O̷Y̷
+4-• Me » VenØX.. ♥
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ||**__</>~Me Codes ©__**||`)
    message.channel.sendEmbed(embed)
