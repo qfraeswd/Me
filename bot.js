@@ -2409,7 +2409,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("<:2:577281083628978197> ✽-  **#help-js  -->  『 قائمة أكواد الجافا سكربت 』**",' ‎ ')
    .addField("<:3:577281128218624002> ✽-  **#help-py  -->  『 قائمة أكواد البايثون 』**",' ‎ ')
     .addField("<:1_:580220212411105280> ✽-  **#help-html  -->  『 قائمه اكواد اتش دى ام ال 』**",' ‎ ')
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
@@ -2431,7 +2431,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("✽- **#help-py-source  -->  『 قسم السورس الأساسي 』**",' ‎ ')
    .addField("✽- **#help-py-admin  -->  『  قسم الأكواد الإدارية 』**",' ‎ ')
      .addField("** قـريـب بـاذن الله الـجـديـد",' ‎ ')
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
@@ -2453,7 +2453,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("✽- **#help-py-source-1  -->  『 السورس الأساسي + البيرفكس 』**",' ‎ ')
    .addField("✽- **#help-py-source-2  -->  『 السورس الاساسي من غير بير فكس 』**",' ‎ ')
      .addField("** قــريــب بـاذن الله **",' ‎ ')
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
@@ -2510,7 +2510,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("✽- **#help-py-admin-1  -->  『 كود اذا دخل البوت لسيرفر يعطيك معلومات عنه + امبد للبايثونوبس 』**",' ‎ ')
    .addField("✽- **#help-py-admin-2  -->  『 كود يغيرلك النك نيم حقك فالسيرفر 』**",' ‎ ')
      .addField("✽- **#help-py-admin-3  -->  『 كود يجيبلك الأيموجيز حقت السيرفر 』**",' ‎ ')	 
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
@@ -2584,7 +2584,7 @@ https://pastebin.com/e6v3GYys`);
   .addField("✽- **#help-html-games  -->  『 قسم كواد العاب 』**",' ‎ ')
   .addField("✽- **#help-html-general  -->  『 قسم كواد العامه 』**",' ‎ ')
   .addField("✽- **#help-html-admin  -->  『 قسم كواد الادارة 』**",' ‎ ')
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
@@ -2605,7 +2605,7 @@ https://pastebin.com/e6v3GYys`);
   .addField(":tools: ***⦁⦓ قسم كواد السورس ⦔⦁*** :tools:",' ‎ ')
   .addField("✽- **#help-html-source-1  -->  『 كـواد السورس اساسى 』**",' ‎ ')
   .addField("** قـريـب نـشـاء اكـثـر **",' ‎ ')
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ')
 
 
    message.channel.send({embed});
@@ -2648,7 +2648,7 @@ https://pastebin.com/dJM98Lgt`);
   .addField("✽- **#help-html-general-4  -->  『 معرفة موقعك 』**",' ‎ ')
   .addField("✽- **#help-html-general-5  -->  『 كواد الواقت 』**",' ‎ ')
   .addField("** قــريــب نـشـاءاالله **",' ‎ ')
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
@@ -2757,7 +2757,7 @@ https://pastebin.com/FqwW9QWu`);
   .addField("✽- **#help-html-games-2  -->  『 لعبة ثعبان 』**",' ‎ ')
   .addField("✽- **#help-html-games-3  -->  『 المرابعات المتحركه 』**",' ‎ ')
   .addField("** قـريـب نـشـاء اكـثـر **",' ‎ ')
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
@@ -2838,7 +2838,7 @@ https://hasteb.in/usabaxiq.xml`);
   .addField("** قـريـب نـشـاالله **",' ‎ ')
 
   
- .setFooter('||</>~Toxic Codes ©||')
+ .setFooter('</>~M̲e Ȼodes  ©')
 
 
    message.channel.send({embed});
