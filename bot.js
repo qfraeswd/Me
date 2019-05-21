@@ -23,7 +23,7 @@ client.user.setStatus("dnd")
  
 });
 
-const developers = ['564414567946387487' , '523865295337553921' , '488574748629139459'];
+const developers = ['564414567946387487' , '523865295337553921' , '488574748629139459' , '434414586960150539'];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
