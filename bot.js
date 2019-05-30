@@ -11,31 +11,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-const adminprefix = "#";
-const devs = ['564414567946387487','488574748629139459','523865295337553921']
-client.on('message', message => {
-  var argresult = message.content.split(` `).slice(1).join(' ');
-    if (!devs.includes(message.author.id)) return;
-   
-if (message.content.startsWith(adminprefix + 'setgame')) {
-  client.user.setGame(argresult);
-    message.channel.sendMessage(`**__${argresult}__تـم تـغـيـر بـلانـيـق الـى:large_blue_circle:**`)
-} else
-  if (message.content.startsWith(adminprefix + 'setname')) {
-client.user.setUsername(argresult).then
-    message.channel.sendMessage(`**__${argresult}__تـم تـغـيـر اســم الـى**:pencil:`)
-return message.reply("**لايـمـكـن تـغـيـر اسـم الان نـتـظـار سـاعـتـان**:stopwatch: ");
-} else
-  if (message.content.startsWith(adminprefix + 'setavatar')) {
-client.user.setAvatar(argresult);
-  message.channel.sendMessage(`**__${argresult}__تــم تــغـيــر صــور الـى :camera_with_flash:**`);
-      } else    
-if (message.content.startsWith(adminprefix + 'setT')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/idk");
-    message.channel.sendMessage(`**__${argresult}__ تــم تـغــيــر حــالـه الــى :red_circle:**`)
-}
-});
-
 client.on("message",async message => {
 if(message.content === 'heroku'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » heroku");
@@ -982,83 +957,5 @@ channel.send({embed : embed});
     channel.send({embed : embed});
     })
 
-client.on("message", (message) => {
-                        if (message.channel.type === "dm") {
-                    if (message.author.id === client.user.id) return;
-                    let yumz = new Discord.RichEmbed()
-                                .setTimestamp()
-                                .setTitle("***⦁⦓ رسال جديد فى خاص بوت ⦔⦁*** :mailbox_with_mail:")
-                                .addField(`:bust_in_silhouette: | **تم رسال بواسطه** :`, `<@${message.author.id}>`)
-                                .setColor("RANDOM")
-                                .setThumbnail(message.author.displayAvatarURL)
-                                .addField(`:incoming_envelope: | ** رسـالـة ** : `, `\n\n\`\`\`${message.content}\`\`\``)
-                                .setFooter(`** تم تفعل خصائص رسائل الك ** </>~M̲e Ȼodes  ©`)
-                            client.users.get("564414567946387487").send(yumz)
-                        }
-            });
-			
-client.on("message", (message) => {
-                        if (message.channel.type === "dm") {
-                    if (message.author.id === client.user.id) return;
-                    let yumz = new Discord.RichEmbed()
-                                .setTimestamp()
-                                .setTitle("***⦁⦓ رسال جديد فى خاص بوت ⦔⦁*** :mailbox_with_mail:")
-                                .addField(`:bust_in_silhouette: | **تم رسال بواسطه** : `, `<@${message.author.id}>`)
-                                .setColor("RANDOM")
-                                .setThumbnail(message.author.displayAvatarURL)
-                                .addField(`:incoming_envelope: | ** رسـالـة ** : `, `\n\n\`\`\`${message.content}\`\`\``)
-                                .setFooter(`** تم تفعل خصائص رسائل الك ** </>~M̲e Ȼodes  ©`)
-                            client.users.get("488574748629139459").send(yumz)
-                        }
-            });
-
-    client.on('message',async message => {
-  let mention = message.mentions.members.first();
-  let role = message.content.split(" ").slice(2).join(" ");
-  let mySupport = message.guild.roles.find('name',role);
-  if(message.content.startsWith("!قبول")) {
-    let acRoom = message.guild.channels.find('name', 'القبول-الرفض');
-    if(!acRoom) return message.reply("$!setac من فضلك انشاء روم **القبول-الرفض** او اكتب الامر");
-    if(acRoom) {
-    if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return;
-    if(!mention) return message.reply('منشن شخص');
-    if(!role) return message.reply('ادخل اسم رتبة');
-    if(!mySupport) return message.reply('هذه الرتبة غير موجودة');
-    if(mention.roles.has(mySupport)) return message.reply('هذا الشخص معه الرتبة مسبقا');
- 
-    mention.addRole(mySupport).then(() => {
-      acRoom.send(`**[ ${mySupport} ] واعطائك رتبة ${mention} تم بنجاح قبولك**`);
-    });
-  }
-}
-});
-
-client.on('message',async message => {
-  let mention = message.mentions.members.first();
-  if(message.content.startsWith("!رفض")) {
-  if(!message.channel.guild) return;
-  let acRoom = message.guild.channels.find('name', 'القبول-الرفض');
-  if(!acRoom) return message.reply("!!setac من فضلك انشاء روم **القبول-الرفض** او اكتب الامر");
-  if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return;
-  if(!mention) return message.reply("منشن شخص");
- 
-  acRoom.send(`**${mention} تم رفضك للاسف**`)
-  }
-});
-
-          client.on('message', message=>{
-            if(message.content.startsWith("!room2")) {
-         if(!message.channel.guild) return;
-                if(message.author.bot) return;
-                if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply("**تحتاج الى `MANAGE_CHANNELS`**");
-                message.guild.createChannel("القبول-الرفض", "text").then(c =>{
-                    c.overwritePermissions(message.guild.id, {
-                        SEND_MESSAGES: false
- 
-                          })
-                })
-    message.channel.send("**✅ تم انشاء روم القبول والرفض بنجاح**")
-            }
-})
 
 client.login(process.env.BOT_TOKEN);
