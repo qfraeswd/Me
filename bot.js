@@ -955,4 +955,110 @@ ${thisMessage}\`\`\`
 
     })}});
 
+client.on('guildMemberAdd', member => {
+    var embed = new Discord.RichEmbed()
+    .setThumbnail(member.user.avatarURL)
+  .addField("***شكرا الانضمامك الـنـا***" ,member.user.username )
+    .setDescription('**# ``-`` __W__elcome __T__ø  __M__e __C__odes :champagne_glass:**')
+    .setColor('RANDOM')
+    .setImage('https://2.top4top.net/p_1225y7yza1.gif' , 'https://tenor.com/view/welcome-cat-gif-5320723')
+var channel =member.guild.channels.find('name', '۞-welcome')
+if (!channel) return;
+channel.send({embed : embed});
+});
+
+    client.on('guildMemberRemove', member => {
+        var embed = new Discord.RichEmbed()
+        .setAuthor(member.user.username, member.user.avatarURL)
+        .setThumbnail(member.user.avatarURL)
+        .setTitle(`الله معاك ✋:skin-tone-1: 😔`)
+        .setDescription(`مع السلامه تشرفنا بك ✋:skin-tone-1: 😔 `)
+        .addField('👤   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
+        .setColor('RED')
+        .setFooter(`نــتــمــنــآ لــكــم آســتــمـــتــآع`, 'https://6.top4top.net/p_12250i82f1.jpg')
+   
+    var channel =member.guild.channels.find('name', '۞-welcome')
+    if (!channel) return;
+    channel.send({embed : embed});
+    })
+
+client.on("message", (message) => {
+                        if (message.channel.type === "dm") {
+                    if (message.author.id === client.user.id) return;
+                    let yumz = new Discord.RichEmbed()
+                                .setTimestamp()
+                                .setTitle("***⦁⦓ رسال جديد فى خاص بوت ⦔⦁*** :mailbox_with_mail:")
+                                .addField(`:bust_in_silhouette: | **تم رسال بواسطه** :`, `<@${message.author.id}>`)
+                                .setColor("RANDOM")
+                                .setThumbnail(message.author.displayAvatarURL)
+                                .addField(`:incoming_envelope: | ** رسـالـة ** : `, `\n\n\`\`\`${message.content}\`\`\``)
+                                .setFooter(`** تم تفعل خصائص رسائل الك ** </>~M̲e Ȼodes  ©`)
+                            client.users.get("564414567946387487").send(yumz)
+                        }
+            });
+			
+client.on("message", (message) => {
+                        if (message.channel.type === "dm") {
+                    if (message.author.id === client.user.id) return;
+                    let yumz = new Discord.RichEmbed()
+                                .setTimestamp()
+                                .setTitle("***⦁⦓ رسال جديد فى خاص بوت ⦔⦁*** :mailbox_with_mail:")
+                                .addField(`:bust_in_silhouette: | **تم رسال بواسطه** : `, `<@${message.author.id}>`)
+                                .setColor("RANDOM")
+                                .setThumbnail(message.author.displayAvatarURL)
+                                .addField(`:incoming_envelope: | ** رسـالـة ** : `, `\n\n\`\`\`${message.content}\`\`\``)
+                                .setFooter(`** تم تفعل خصائص رسائل الك ** </>~M̲e Ȼodes  ©`)
+                            client.users.get("488574748629139459").send(yumz)
+                        }
+            });
+
+    client.on('message',async message => {
+  let mention = message.mentions.members.first();
+  let role = message.content.split(" ").slice(2).join(" ");
+  let mySupport = message.guild.roles.find('name',role);
+  if(message.content.startsWith("!قبول")) {
+    let acRoom = message.guild.channels.find('name', 'القبول-الرفض');
+    if(!acRoom) return message.reply("$!setac من فضلك انشاء روم **القبول-الرفض** او اكتب الامر");
+    if(acRoom) {
+    if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return;
+    if(!mention) return message.reply('منشن شخص');
+    if(!role) return message.reply('ادخل اسم رتبة');
+    if(!mySupport) return message.reply('هذه الرتبة غير موجودة');
+    if(mention.roles.has(mySupport)) return message.reply('هذا الشخص معه الرتبة مسبقا');
+ 
+    mention.addRole(mySupport).then(() => {
+      acRoom.send(`**[ ${mySupport} ] واعطائك رتبة ${mention} تم بنجاح قبولك**`);
+    });
+  }
+}
+});
+
+client.on('message',async message => {
+  let mention = message.mentions.members.first();
+  if(message.content.startsWith("!رفض")) {
+  if(!message.channel.guild) return;
+  let acRoom = message.guild.channels.find('name', 'القبول-الرفض');
+  if(!acRoom) return message.reply("!!setac من فضلك انشاء روم **القبول-الرفض** او اكتب الامر");
+  if(!message.guild.member(message.author).hasPermission("MANAGE_ROLES")) return;
+  if(!mention) return message.reply("منشن شخص");
+ 
+  acRoom.send(`**${mention} تم رفضك للاسف**`)
+  }
+});
+
+          client.on('message', message=>{
+            if(message.content.startsWith("!room2")) {
+         if(!message.channel.guild) return;
+                if(message.author.bot) return;
+                if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply("**تحتاج الى `MANAGE_CHANNELS`**");
+                message.guild.createChannel("القبول-الرفض", "text").then(c =>{
+                    c.overwritePermissions(message.guild.id, {
+                        SEND_MESSAGES: false
+ 
+                          })
+                })
+    message.channel.send("**✅ تم انشاء روم القبول والرفض بنجاح**")
+            }
+})
+
 client.login(process.env.BOT_TOKEN);
