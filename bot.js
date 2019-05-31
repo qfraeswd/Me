@@ -54,7 +54,7 @@ client.on("message",async message => {
 if(message.content === 'heroku'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » heroku");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » heroku__ .. :x:**`)
-var shopc = message.guild.channels.find("name","۞-explained-heroku")
+var shopc = message.guild.channels.find("name","✽-explained-heroku")
   if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
     let heroku = '';
       let fillter = m => m.author.id === message.author.id
@@ -107,7 +107,7 @@ client.on("message",async message => {
 if(message.content === 'kalash'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » kalash");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » kalash__ .. :x:**`)
-var shopc = message.guild.channels.find("name","۞-explained-kalash")
+var shopc = message.guild.channels.find("name","✽-explained-kalash")
   if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
     let kalash = '';
       let fillter = m => m.author.id === message.author.id
@@ -160,7 +160,7 @@ client.on("message",async message => {
 if(message.content === 'HTML'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » HTML");
       if(!staff) return message.reply(`** | لا يـوجـد مـعـاك رتـب __• Me » HTML__ .. :x:**`)
-var shopc = message.guild.channels.find("name","۞-explained-html")
+var shopc = message.guild.channels.find("name","✽-explained-html")
   if(!shopc) return message.reply(":x： | **لا يـوجـد شـات نـشـره فـيـدوهـات ..**")
     let HTML = '';
       let fillter = m => m.author.id === message.author.id
@@ -219,7 +219,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك __• Me » Py Support__ الى استخدام هذا امر**');
 
-  let jscodes = message.guild.channels.find(`name`, "۞-discord-py");
+  let jscodes = message.guild.channels.find(`name`, "✽-discord-py");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -371,7 +371,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » CSS Support__ الى ستخدام هذا امر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "۞-code-css");
+  let jscodes = message.guild.channels.find(`name`, "✽-code-css");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -523,7 +523,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » JS Support__ الى ستخدام هذا امر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "۞-discord-js");
+  let jscodes = message.guild.channels.find(`name`, "✽-discord-js");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -675,7 +675,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » HTML Support__ الى ستخدام هذا امر**');
 
-  let jscodes = message.guild.channels.find(`name`, "۞-discord-html");
+  let jscodes = message.guild.channels.find(`name`, "✽-discord-html");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -827,7 +827,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » PhP Support__ الاستخدام هذا امر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "۞-code-php");
+  let jscodes = message.guild.channels.find(`name`, "✽-code-php");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -976,7 +976,7 @@ client.on('guildMemberAdd', member => {
     .setDescription('**# ``-`` __W__elcome __T__ø  __M__e __C__odes :champagne_glass:**')
     .setColor('RANDOM')
     .setImage('https://2.top4top.net/p_1225y7yza1.gif' , 'https://tenor.com/view/welcome-cat-gif-5320723')
-var channel =member.guild.channels.find('name', '۞-welcome')
+var channel =member.guild.channels.find('name', '✽-welcome')
 if (!channel) return;
 channel.send({embed : embed});
 });
@@ -991,7 +991,7 @@ channel.send({embed : embed});
         .setColor('RED')
         .setFooter(`نــتــمــنــآ لــكــم آســتــمـــتــآع`, 'https://6.top4top.net/p_12250i82f1.jpg')
    
-    var channel =member.guild.channels.find('name', '۞-welcome')
+    var channel =member.guild.channels.find('name', '✽-welcome')
     if (!channel) return;
     channel.send({embed : embed});
     })
