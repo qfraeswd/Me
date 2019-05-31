@@ -11,6 +11,44 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+const developers = ['564414567946387487' , '523865295337553921' , '488574748629139459'];
+client.on('message', message => {
+    var argresult = message.content.split(` `).slice(1).join(' ');
+      if (!developers.includes(message.author.id)) return;
+      
+  if (message.content.startsWith(adminprefix + 'setg')) {
+    client.user.setGame(argresult);
+      message.channel.send(`**✅   ${argresult}**`)
+  } else 
+     if (message.content === (adminprefix + "leave")) {
+    message.guild.leave();  s
+  } else  
+  if (message.content.startsWith(adminprefix + 'setw')) {
+  client.user.setActivity(argresult, {type:'WATCHING'});
+      message.channel.send(`**✅   ${argresult}**`)
+  } else 
+  if (message.content.startsWith(adminprefix + 'setl')) {
+  client.user.setActivity(argresult , {type:'LISTENING'});
+      message.channel.send(`**✅   ${argresult}**`)
+  } else 
+  if (message.content.startsWith(adminprefix + 'sets')) {
+    client.user.setGame(argresult, "https://www.twitch.tv/zero");
+      message.channel.send(`**✅**`)
+  }
+  if (message.content.startsWith(adminprefix + 'setname')) {
+  client.user.setUsername(argresult).then
+      message.channel.send(`تغيير الاسم إلى ..**${argresult}** `)
+} else
+  if (message.content.startsWith(adminprefix + 'setprefix')) {
+  client.user.setPrefix(argresult).then
+      message.channel.send(`تغيير البادئة ..**${argresult}** `)
+} else
+if (message.content.startsWith(adminprefix + 'setavatar')) {
+  client.user.setAvatar(argresult);
+    message.channel.send(`تغيير الصورة الرمزية إلى :**${argresult}** `);
+}
+});
+
 client.on("message",async message => {
 if(message.content === 'heroku'){
 let staff = message.guild.member(message.author).roles.find('name' ,"• Me » heroku");
