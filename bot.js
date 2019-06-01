@@ -23,20 +23,19 @@ client.on('guildCreate', guild => {
   }
 })
 
-client.on("message", (message) => {
-                        if (message.channel.type === "dm") {
-                    if (message.author.id === client.user.id) return;
-                    let yumz = new Discord.RichEmbed()
-                                .setTimestamp()
-                                .setTitle(":mailbox_with_mail: | **⦁⦓ • Me » Codesᵀᴹ ⦔⦁**")
-                                .addField(`:bust_in_silhouette: | **تم رسال بواسطه **: <@${message.author.id}>`)
-                                .setColor("RANDOM")
-                                .setThumbnail(message.author.displayAvatarURL)
-                                .addField(`:incoming_envelope: | **رسـالـة** : `, `\n\n\`\`\`${message.content}\`\`\``)
-                                .setFooter(`• Me » Codesᵀᴹ | :beginner:`)
-                            client.users.get("584340810682597386").send(yumz)
-                        }
-            });
+  client.on('message', function(message) {
+    if (message.channel.type === "dm") {
+        if (message.author.id === client.user.id) return;
+        var Dark = new Discord.RichEmbed()
+        .setColor('RANDOM')
+        .setTimestamp()
+        .setTitle('<:Me:584061451551899672> | **يوجد رسائل جديد فى خاص بوت ...**')
+        .setThumbnail(`${message.author.avatarURL}`)
+        .setDescription(`\n\n\`\`\`${message.content}\`\`\``)
+        .setFooter(`من عند ${message.author.tag} (${message.author.presence.status.toUpperCase()})`)
+    client.channels.get("584340810682597386").send({embed:Dark});
+    }
+});
 
 const developers = ['564414567946387487' , '523865295337553921' , '488574748629139459'];
 client.on('message', message => {
