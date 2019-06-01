@@ -11,32 +11,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('guildCreate', guild => {
-  let support = client.guilds.get('571351407425486858')
-  if(support === undefined) return
-  let role = support.roles.find(r => r.name == '• Me » Use bot')
-  let member = support.members.get(guild.owner.user.id) 
-  if(member) {
-    member.addRole(role)
-  } else {
-    console.log(`:x: | **هذا المستخدم ليس في خادم الدعم**`)
-  }
-})
-
-  client.on('message', function(message) {
-    if (message.channel.type === "dm") {
-        if (message.author.id === client.user.id) return;
-        var Dark = new Discord.RichEmbed()
-        .setColor('RANDOM')
-        .setTimestamp()
-        .setTitle('<:Me:584061451551899672> | **يوجد رسائل جديد فى خاص بوت ...**')
-        .setThumbnail(`${message.author.avatarURL}`)
-        .setDescription(`\n\n\`\`\`${message.content}\`\`\``)
-        .setFooter(`من عند ${message.author.tag} (${message.author.presence.status.toUpperCase()})`)
-    client.channels.get("584340810682597386").send({embed:Dark});
-    }
-});
-
 const developers = ['564414567946387487' , '523865295337553921' , '488574748629139459'];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
