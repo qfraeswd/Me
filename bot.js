@@ -11,6 +11,17 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+client.on('guildCreate', guild => {
+  let support = client.guilds.get('580946996412678162')
+  if(support === undefined) return
+  let role = support.roles.find(r => r.name == '• Me » Use bot')
+  let member = support.members.get(guild.owner.user.id) 
+  if(member) {
+    member.addRole(role)
+  } else {
+    console.log(`:x: | **هذا المستخدم ليس في خادم الدعم**`)
+  }
+})
 
 const developers = ['564414567946387487' , '523865295337553921' , '488574748629139459'];
 client.on('message', message => {
