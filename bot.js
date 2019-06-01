@@ -12,7 +12,7 @@ client.on('ready', () => {
 });
 
 client.on('guildCreate', guild => {
-  let support = client.guilds.get('580946996412678162')
+  let support = client.guilds.get('571351407425486858')
   if(support === undefined) return
   let role = support.roles.find(r => r.name == '• Me » Use bot')
   let member = support.members.get(guild.owner.user.id) 
@@ -22,6 +22,21 @@ client.on('guildCreate', guild => {
     console.log(`:x: | **هذا المستخدم ليس في خادم الدعم**`)
   }
 })
+
+client.on("message", (message) => {
+                        if (message.channel.type === "dm") {
+                    if (message.author.id === client.user.id) return;
+                    let yumz = new Discord.RichEmbed()
+                                .setTimestamp()
+                                .setTitle(":mailbox_with_mail: | **⦁⦓ • Me » Codesᵀᴹ ⦔⦁**")
+                                .addField(`:bust_in_silhouette: | **تم رسال بواسطه **: <@${message.author.id}>`)
+                                .setColor("RANDOM")
+                                .setThumbnail(message.author.displayAvatarURL)
+                                .addField(`:incoming_envelope: | **رسـالـة** : `, `\n\n\`\`\`${message.content}\`\`\``)
+                                .setFooter(`• Me » Codesᵀᴹ | :beginner:`)
+                            client.users.get("584340810682597386").send(yumz)
+                        }
+            });
 
 const developers = ['564414567946387487' , '523865295337553921' , '488574748629139459'];
 client.on('message', message => {
