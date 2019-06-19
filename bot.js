@@ -218,7 +218,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك __• Me » Py Support__ الى استخدام هذا امر**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-py");
+  let jscodes = message.guild.channels.find(`name`, "✽-code-py");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -522,7 +522,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » JS Support__ الى ستخدام هذا امر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-js");
+  let jscodes = message.guild.channels.find(`name`, "✽-code-js");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -674,7 +674,7 @@ if(!message.channel.guild) return message.reply(' ');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تملك رتب __• Me » HTML Support__ الى ستخدام هذا امر**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-html");
+  let jscodes = message.guild.channels.find(`name`, "✽-code-html");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
